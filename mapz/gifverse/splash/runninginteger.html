@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Loops</h2>
+
+	<style>
+	#patch {
+			
+			width: 900px;
+			height: 900px;
+			background-color: aquamarine;
+			background-size: 34%;
+		background-repeat: repeat;
+		}
+	
+	</style>
+
+
+<p id="patch"></p>
+
+<script>
+var verses = "";
+var i;
+for (i = 0; i < 5; i++) {
+    verses += "0" + i + ".gif" + "<br>";
+}
+document.getElementById("patch").innerHTML = verses;
+</script>
+
+</body>
+</html>
+

@@ -1,0 +1,31 @@
+.plants{
+  background: url("../plants/resting.png") no-repeat;
+  height: 100px;
+  width: 100px;
+  border: none;
+  /* color:none; */
+  text-align:center;
+}
+
+.plants:hover {
+  background: url("../plants/openmouth.png") no-repeat;
+  height: 100px;
+  width: 100px;
+  border: none;
+}
+
+/* body { */
+/* background-image:url('../plants/plnt.png'); */
+/* background-color: black; */
+/* background-size:cover; */
+/* background-repeat:no-repeat; */
+/* background-size: contain; */
+/* height: 100%; */
+ /* color:#99ccff; */
+ /* font-family:sans-serif; */
+/* }
+
+
+a {
+ color:white;
+} */

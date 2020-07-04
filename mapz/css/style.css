@@ -1,0 +1,36 @@
+/* The background clip for text mixin */
+/* Based on Divya's pure CSS solution: http://nimbupani.com/using-background-clip-for-text-with-css-fallback.html */
+/* The mixin in action... */
+.gifwordz {
+  color: #fff;
+  top: 300px;
+  -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(transparent, transparent), url("http://inflexions.org/cepholopodresearch/p5/gifverse/breeze.gif") repeat;
+  background: -o-linear-gradient(transparent, transparent);
+  -webkit-background-clip: text;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 1em;
+  margin: 2em 0;
+  padding: 50px;
+  width: 50%;
+  text-align: right;
+  z-index:999;
+  position: absolute;
+
+}
+
+/* Other Styles */
+/* .mainmain { */
+  /* background: url("../Screen_Shot_2017-08-10_at_12.16.06_AM.png"); */
+/* } */
+
+@font-face {
+  font-family: "arial";
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* #perchedFrog {
+  position: absolute;
+  clip: rect(10px, 290px, 190px, 10px);
+} */

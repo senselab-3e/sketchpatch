@@ -1,0 +1,143 @@
+
+/* zindex order: */
+/* 0:popmap */
+
+/* 2:texts */
+/* 3:fabmap */
+/* 4:buttons */
+ @import url('https://fonts.googleapis.com/css?family=Muli');
+
+html, body{
+  overflow: visible;
+  font-family: 'Muli', sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* popmap */
+#map {
+height:100%;
+z-index:0;
+}
+/* fabmap */
+#fabmap{
+  width: 100%;
+  height: 1000px;
+  top: 0;
+  display: block;
+  position: absolute;
+  z-index:3;
+}
+/* upload iframe */
+.uploader{
+  top:55%;
+  width:250px;
+  height:230px;
+}
+#glided{
+  z-index:6;
+}
+
+#glide{
+  top:0;
+}
+
+.txts{
+  z-index: 2;
+  position:absolute;
+  top: 20%;
+  right: 60%;
+}
+
+/* menu */
+.menu{
+  top:25%;
+  left:80%;
+  position:fixed;
+  z-index: 4;
+}
+
+.button {
+  z-index: 6;
+  /* padding: 15px 25px; */
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #45CEEF;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {
+  z-index: 7;
+  background-color: #f9ce7c
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/* smooth operator image */
+#appear{
+  width:150px;
+  z-index: 4;
+}
+/* smooth operators wrapper */
+
+/* #dfrin{
+  display:none;
+} */
+
+/* texts */
+#minmov{
+  position:absolute;
+  z-index: 2;
+  /* background-image: linear-gradient(blue,green); */
+  top:50%;
+  /* left:20%; */
+}
+
+/* #frin{
+  z-index: 3;
+  top:20%;
+  left:40%;
+} */
+
+#smoothh {
+  position:absolute;
+  top:20%;
+  left:40%;
+  display:none;
+}
+
+.rolodex{
+  left:90%;
+  height:100%;
+  width:10%;
+}
+
+
+.plants{
+  background: url("../plants/resting.png") no-repeat;
+  height: 100px;
+  width: 100px;
+  border: none;
+  /* color:none; */
+}
+
+.plants:hover {
+  background: url("../plants/openmouth.png") no-repeat;
+  height: 100px;
+  width: 100px;
+  border: none;
+}
+
+.seed {
+  color:white;
+}

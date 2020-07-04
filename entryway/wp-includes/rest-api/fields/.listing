@@ -1,0 +1,7 @@
+drwxr-xr-x    2 erinma3    erinma3           214 Jan  8 18:34 .
+drwxr-xr-x    5 erinma3    erinma3           150 Jan  8 18:34 ..
+-rw-r--r--    1 erinma3    erinma3           893 Jan  8 18:34 class-wp-rest-comment-meta-fields.php
+-rw-r--r--    1 erinma3    erinma3         17018 Jan  8 18:34 class-wp-rest-meta-fields.php
+-rw-r--r--    1 erinma3    erinma3          1248 Jan  8 18:34 class-wp-rest-post-meta-fields.php
+-rw-r--r--    1 erinma3    erinma3          1245 Jan  8 18:34 class-wp-rest-term-meta-fields.php
+-rw-r--r--    1 erinma3    erinma3           860 Jan  8 18:34 class-wp-rest-user-meta-fields.php

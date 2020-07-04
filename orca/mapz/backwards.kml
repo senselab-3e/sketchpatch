@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>How to enter backwards?</name>
+    <description><![CDATA[ pop = (pop, fab, rad, ped) => { let research creation = entryway, emissaries) = [ ];<br>emissaries =  textual feelers; <br>entryway = 'immanently inventing wayz'<br> }<br>]]></description>
+    <Style id="icon-1899-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F9A825-1200-nodesc-normal">
+      <LineStyle>
+        <color>ff25a8f9</color>
+        <width>1.2</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-F9A825-1200-nodesc-highlight">
+      <LineStyle>
+        <color>ff25a8f9</color>
+        <width>1.8</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-F9A825-1200-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F9A825-1200-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F9A825-1200-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-F48FB1-701-150-normal">
+      <LineStyle>
+        <color>ffb18ff4</color>
+        <width>0.701</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>96b18ff4</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-F48FB1-701-150-highlight">
+      <LineStyle>
+        <color>ffb18ff4</color>
+        <width>1.0515</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>96b18ff4</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-F48FB1-701-150">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-F48FB1-701-150-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-F48FB1-701-150-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Networked Topologies (towards a Collective DREAM)</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/lcVQVcagPPOvbEp8fQf2oPpcHXvK8HLNLKj0f0uYfAAj2Lgn6g9CcjGlrc5CzJHSrPE9Uote20BoEIhotUuWGuE2VoFzNw0xkfhaDIS-dh3hK62R7BzpOwXCxUqhjUmrw0a3" height="200" width="auto" /><br><br>Saturday, November 17, 2018 at 8 PM – 9 PM UTC+01<br>https://www.facebook.com/events/820387741629600/]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/lcVQVcagPPOvbEp8fQf2oPpcHXvK8HLNLKj0f0uYfAAj2Lgn6g9CcjGlrc5CzJHSrPE9Uote20BoEIhotUuWGuE2VoFzNw0xkfhaDIS-dh3hK62R7BzpOwXCxUqhjUmrw0a3</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3686264,48.8815162,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Line 3</name>
+        <styleUrl>#line-F9A825-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            2.5758334,48.9784162,0
+            2.6039859,48.9030967,0
+            2.6094791,48.8863937,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>c r ea tur e ci t ngs</name>
+      <Placemark>
+        <name>Parc des Buttes-Chaumont</name>
+        <description><![CDATA[p o p p [6:06 AM]<br>What is top of the butte @erintango?<br>I just woke up so I don't think I'll make it to top knot :blondiecat:<br>Slept 14 hours hehehhe<br>erintango [6:07 AM]<br>butte chaumont is the parc between us where you walked yesterday. There is a belvedere in the middle of a lake. About 15 minutes from point ephemere<br>p o p p [6:07 AM]<br>Oh yes! Beautiful parc<br>erintango [6:07 AM]<br>great that you slept!!! but also very fine with meeting at point ephemere!<br>p o p p [6:09 AM]<br>Im going to see how fast the body moves :kodama1:<br>erintango [6:10 AM]<br>all rhythms are good. I will meander my way there happily in relation with whatever is moving in that direction<br>p o p p [6:12 AM]<br>:]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            2.3827609,48.8809496,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>txtu al por ta a al s
+</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/b-2ZwD-F554RzuzbM4KRrvo6jhqNpXuDz9WsPVyaIbqAWpKVkU0nJgFDhrHv21ZgbXbaAukJ2VjD2eYt0g87uDF5slezzhBrENujApEIvbhn80UquQJAlhqFG2HKKLwSSWLg" height="200" width="auto" /><br><br><br><br><img src="https://lh5.googleusercontent.com/U2qjXJDdSS71buJr299qBi-3wXw5mk-a6VQupdK41xYWVrc8S9lcSnyxjamJXjm30IpEZxCIqFEZuWYIFNhDQ-IvFXAT2lX8-36biVDOqJKUnVYrvY7pkPR6ReEXh9-un8U" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/b-2ZwD-F554RzuzbM4KRrvo6jhqNpXuDz9WsPVyaIbqAWpKVkU0nJgFDhrHv21ZgbXbaAukJ2VjD2eYt0g87uDF5slezzhBrENujApEIvbhn80UquQJAlhqFG2HKKLwSSWLg https://lh5.googleusercontent.com/U2qjXJDdSS71buJr299qBi-3wXw5mk-a6VQupdK41xYWVrc8S9lcSnyxjamJXjm30IpEZxCIqFEZuWYIFNhDQ-IvFXAT2lX8-36biVDOqJKUnVYrvY7pkPR6ReEXh9-un8U</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3889966,48.8781844,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>c u b   e
+</name>
+        <description>zone of indeterminancy</description>
+        <styleUrl>#poly-F48FB1-701-150</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                2.3480414,48.8696347,0
+                2.4355886,48.8391385,0
+                2.465801,48.8856659,0
+                2.3779105,48.9150056,0
+                2.3480414,48.8696347,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>co  m pos(t)  ing</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/7DIWl0u2lJ4VUtRSHpmj4g8aACRV1VCUcJOUdVedXTUhxaOdLzbxhvVLBNzzcv60tRCSKJ9_StyULNAO1TMgEyTTTW4TiXYBfYKAHE_-JgS3SJ40oBgxaW-i0QbzdY_oxnTA" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/7DIWl0u2lJ4VUtRSHpmj4g8aACRV1VCUcJOUdVedXTUhxaOdLzbxhvVLBNzzcv60tRCSKJ9_StyULNAO1TMgEyTTTW4TiXYBfYKAHE_-JgS3SJ40oBgxaW-i0QbzdY_oxnTA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3683205,48.881275,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>unf ol di  ng
+</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/jLPfHpnnMPr5r3GIpWw1bdiCus4rlHjHAhswlDVfeHxo3vqa6M90dT5010opN8izGFIjKzFOFDxgmJ6sl3Czogqwx6g8lzj3iaNOgQc4KKGSawdc_fiz9I4TPBMxmOBL_Jje" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/jLPfHpnnMPr5r3GIpWw1bdiCus4rlHjHAhswlDVfeHxo3vqa6M90dT5010opN8izGFIjKzFOFDxgmJ6sl3Czogqwx6g8lzj3iaNOgQc4KKGSawdc_fiz9I4TPBMxmOBL_Jje</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.4063204,48.8865937,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>picn c
+</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/cnIz5vvYy8CNxzTbDOusogT9AjOlvxn065256Ap2FYGCdB4O8FrjGyzrtIuXZF_682uc6URdIwmrk-1aJH0N_2rUh9_kZijXJeTvHo0Xd5bTYj7ksZe_IWt_1p7prRr3BT2f" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/cnIz5vvYy8CNxzTbDOusogT9AjOlvxn065256Ap2FYGCdB4O8FrjGyzrtIuXZF_682uc6URdIwmrk-1aJH0N_2rUh9_kZijXJeTvHo0Xd5bTYj7ksZe_IWt_1p7prRr3BT2f</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.4142168,48.8634961,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name/>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/FLWTq9AJEBqYalkjNenvECHPkBdEeBaeBl2xOYRevmMFsg-98fMPBtQyF3dzJimwuz2oZpFtpZSCp1Et4hBVs4An5gJXfFgTeWUeCKd_Dz_gpXzxZAaT0DoP3yyhAGvXPDc" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/FLWTq9AJEBqYalkjNenvECHPkBdEeBaeBl2xOYRevmMFsg-98fMPBtQyF3dzJimwuz2oZpFtpZSCp1Et4hBVs4An5gJXfFgTeWUeCKd_Dz_gpXzxZAaT0DoP3yyhAGvXPDc</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.4260615,48.8800938,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>p  0p
+</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/KMhn_iG-YUjHDorj1b7gaaVknarYEtkektOMAkFaq6isp_YbpAV-D21MuKXOgleeZv9oZxixjy3iz_DvfWGN_ioDnnHvqXcl18QLDSHWA-MtzEBq5xHJiet4IyAKobKF6cwG" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/KMhn_iG-YUjHDorj1b7gaaVknarYEtkektOMAkFaq6isp_YbpAV-D21MuKXOgleeZv9oZxixjy3iz_DvfWGN_ioDnnHvqXcl18QLDSHWA-MtzEBq5xHJiet4IyAKobKF6cwG</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.434293,48.8693725,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>tx tu al feeler ing 
+</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/ubgHhZJ2Btl528tOI5hXLszEg7eXywHhqsAbCy6D1W57argw92BDkb84k0QehnyUcgwI5bBE2mT-EKDbgAkvdmTwVbETs5j5oBgEMSKXzoqRgRMLZVgNP69K5qO_W4oj2bce" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/ubgHhZJ2Btl528tOI5hXLszEg7eXywHhqsAbCy6D1W57argw92BDkb84k0QehnyUcgwI5bBE2mT-EKDbgAkvdmTwVbETs5j5oBgEMSKXzoqRgRMLZVgNP69K5qO_W4oj2bce</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.4215901,48.8682433,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>fo l z
+</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/nzXcqxzZoCinnWJ2J4TJMisaSSDSNmQjiC5KIdOUi7tT5wOuXHVAeesaTHFv-oSoQ_RrGqU4KpHM06CXjtG_stqwmYQU-wxBl6pRauQWZYn4zwb8gL1Rqn90N1co1_UXJaSQVw" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/nzXcqxzZoCinnWJ2J4TJMisaSSDSNmQjiC5KIdOUi7tT5wOuXHVAeesaTHFv-oSoQ_RrGqU4KpHM06CXjtG_stqwmYQU-wxBl6pRauQWZYn4zwb8gL1Rqn90N1co1_UXJaSQVw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3958409,48.8613549,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>szz</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/65fvN8qLrehVcUdAKRZY3GQqSVYoOgKt9NSwQllrAXenschhm_AlMNx2_otvn_jDBfBrkbOpFUOMHL0ahpvKT_QJpgBlzLFV3OdCTKMu7LvmqAKz7WICJu5Xh_9YdthIFOWA" height="200" width="auto" /><br><br>https://vimeo.com/301069104/786dd5ecf7]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/65fvN8qLrehVcUdAKRZY3GQqSVYoOgKt9NSwQllrAXenschhm_AlMNx2_otvn_jDBfBrkbOpFUOMHL0ahpvKT_QJpgBlzLFV3OdCTKMu7LvmqAKz7WICJu5Xh_9YdthIFOWA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.4019816,48.8759346,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>wrrr</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/0CEq8AAxCGYvInPRn9qGBvhR43eBqakgKNXbZVj_-id39W8wyapgC5waQVY5gwko2d7uf_Wb4LlpG7QrSF5FlKxoLAxkMtZ70rSo2oYLVI1uuVd74kOLvB_F-LnnZp0vyUFu" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/0CEq8AAxCGYvInPRn9qGBvhR43eBqakgKNXbZVj_-id39W8wyapgC5waQVY5gwko2d7uf_Wb4LlpG7QrSF5FlKxoLAxkMtZ70rSo2oYLVI1uuVd74kOLvB_F-LnnZp0vyUFu</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3897936,48.8955754,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>fffff
+</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/r9KP6hqD-P9YzQM2czUS5PIYH1mPoy5OTT4p3JxFpM5OVMAdgMIjlWnDcas7Wvu0cQBXSimGOdx9hemDsK_8pu8JAjN3GSmDXOEQR8HE3h-v2ad5_-ZfJSC-sUHqQg9mSweW" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/r9KP6hqD-P9YzQM2czUS5PIYH1mPoy5OTT4p3JxFpM5OVMAdgMIjlWnDcas7Wvu0cQBXSimGOdx9hemDsK_8pu8JAjN3GSmDXOEQR8HE3h-v2ad5_-ZfJSC-sUHqQg9mSweW</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3909953,48.8828649,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>escape ladder
+</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/_pPMzdICmXf_P0GpE0g-a-n1puc4Kc91v-Oab9uB0SxHpSR0tQhmLKqqC8j3aaulVo4DsxBHsDJqabHThMY_GlhVcgmbpO9WkNIMxhsxfvfSq3OI4vQnqVhETyxGAVmtW0OFQg" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/_pPMzdICmXf_P0GpE0g-a-n1puc4Kc91v-Oab9uB0SxHpSR0tQhmLKqqC8j3aaulVo4DsxBHsDJqabHThMY_GlhVcgmbpO9WkNIMxhsxfvfSq3OI4vQnqVhETyxGAVmtW0OFQg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3761044,48.8683216,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>lost frog</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/xPJ5LOdk5khuusI3bmcIHZcixgDZeRJcv9UK-O9EwDdqLp0f6AThGe2WF53ENeS7f8frnz7Ed-Ky3XpCkl0t1W1dHKnEwrnlwnLaHD8vfxJOeRWgTwhrvF7my8VGAFNgaW4GnA" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/xPJ5LOdk5khuusI3bmcIHZcixgDZeRJcv9UK-O9EwDdqLp0f6AThGe2WF53ENeS7f8frnz7Ed-Ky3XpCkl0t1W1dHKnEwrnlwnLaHD8vfxJOeRWgTwhrvF7my8VGAFNgaW4GnA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.2128558,48.9170789,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>~~~
+</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.4175616,48.8956487,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>location locations</name>
+    </Folder>
+    <Folder>
+      <name>ghost sight/citings</name>
+    </Folder>
+    <Folder>
+      <name>potential portal zz</name>
+    </Folder>
+  </Document>
+</kml>

@@ -1,0 +1,11 @@
+drwxr-xr-x    9 erinma3    erinma3           133 Jan  8 18:34 .
+drwxr-xr-x    8 erinma3    erinma3           127 Jan  8 18:34 ..
+-rw-r--r--    1 erinma3    erinma3          1548 Jan  8 18:34 LICENSE.txt
+drwxr-xr-x    2 erinma3    erinma3           304 Jan  8 18:34 css
+drwxr-xr-x    2 erinma3    erinma3           242 Jan  8 18:34 js
+drwxr-xr-x    2 erinma3    erinma3          4096 Jan  8 18:34 less
+-rw-r--r--    1 erinma3    erinma3          2241 Jan  8 18:34 package.json
+drwxr-xr-x    2 erinma3    erinma3          4096 Jan  8 18:34 scss
+drwxr-xr-x    2 erinma3    erinma3            60 Jan  8 18:34 sprites
+drwxr-xr-x    5 erinma3    erinma3            48 Jan  8 18:34 svgs
+drwxr-xr-x    2 erinma3    erinma3          4096 Jan  8 18:34 webfonts

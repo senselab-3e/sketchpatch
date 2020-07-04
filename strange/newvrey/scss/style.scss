@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700');
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+   font-family: 'Roboto Condensed', sans-serif;
+   background: "http://3e-pr0cess-s33dbank.com/strange/gifrain/kingdom.jpg";
+   font-size: 8px;
+
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.box {
+  font-size: 2.5rem;
+  background-color: #444;
+  color: #ccc;
+  border-radius: 16px;
+  height: 160px;
+  width: 14.667%;
+  padding: 32px;
+  margin: 1%;
+  float: left;
+  cursor: pointer;
+  transition: all 0.5s;
+
+  &:nth-child(even) {
+    background-color: #ccc;
+    color: #444;
+    }
+}
+
+.info-box {
+  font-size: 2.5rem;
+  background-color: #444;
+  color: #ccc;
+  border-radius: 16px;
+  height: 160px;
+  width: 14.667%;
+  padding: 32px;
+  margin: 1%;
+  float: left;
+  cursor: pointer;
+  transition: all 0.5s;
+  background-color: black !important;
+  width: 98%;
+  height: 0;
+  overflow: hidden;
+  padding: 0;
+  opacity: 0;
+  color: #fff !important;
+
+  &.open {
+    height: 320px;
+    padding: 32px;
+    opacity: 1;
+  }
+}

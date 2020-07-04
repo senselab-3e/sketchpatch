@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis:500");
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Dosis', sans-serif;
+  font-size: 7.5px;
+  background: 'http://3e-pr0cess-s33dbank.com/strange/gifrain/kingdom.jpg';
+}
+
+canvas{
+  background:hsla(0,0%,0%,1);
+  width:10%;
+  height:10%vh;
+}
+
+div.background {
+  background: url(http://3e-pr0cess-s33dbank.com/strange/gifrain/kingdom.jpg) repeat;
+  border: 2px solid black;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.box {
+  font-size: 2.2rem;
+  background-color: hsla(64, 32%, 0%, 0.72);
+  color: #ccc;
+  border-radius: 8px;
+  height: 160px;
+  width: 14.667%;
+  padding: 8px;
+  margin: 1%;
+  float: left;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.box:nth-child(even) {
+  background-color: hsla(64, 32%, 0%, 0.72);
+  color: white;
+}
+
+.boximage {
+  font-size: 2.5rem;
+  background-color: #444;
+  color: #ccc;
+  border-radius: 16px;
+  height: 160px;
+  width: 14.667%;
+  padding: 32px;
+  margin: 1%;
+  float: left;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.boximage:nth-child(even) {
+  background-color: #ccc;
+  color: #444;
+}
+
+
+.info-box {
+  font-size: 2.5rem;
+  background-color: #444;
+  color: #ccc;
+  border-radius: 16px;
+  height: 160px;
+  width: 14.667%;
+  padding: 32px;
+  margin: 1%;
+  float: left;
+  cursor: pointer;
+  transition: all 0.5s;
+  background-color: black !important;
+  width: 98%;
+  height: 0;
+  overflow: visible;
+  padding: 0;
+  opacity: 0;
+  color: #fff !important;
+  object-fit: cover;
+}
+.info-box.open {
+  height: 320px;
+  padding: 32px;
+  opacity: 1;
+  position: sticky;
+}
+
+
+.info-boximage {
+  font-size: 2.5rem;
+  background-color: #444;
+  color: #ccc;
+  border-radius: 16px;
+  height: 160px;
+  width: 14.667%;
+  padding: 32px;
+  margin: 1%;
+  float: left;
+  cursor: pointer;
+  transition: all 0.5s;
+  background-color: black !important;
+  width: 98%;
+  height: 0;
+  overflow: visible;
+  padding: 0;
+  opacity: 0;
+  color: #fff !important;
+}
+.info-box.open {
+  height: 320px;
+  padding: 32px;
+  opacity: 1;
+}
+
+div.video_div{
+    width:400px;
+    height:120px;
+    border:0px solid red;
+    background-color:blue;
+    margin:0 auto;
+    overflow: hidden
+}
+video{
+    width:100%;
+    height:100%;
+    /* Use contain instead if you want the object to fit without cropping */
+    contain: cover;
+}

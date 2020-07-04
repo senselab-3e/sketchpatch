@@ -1,0 +1,94 @@
+html, body {
+  background: http://3e-pr0cess-s33dbank.com/strange/gifrain/kingdom.jpg;
+  font-family: Spectral;
+}
+
+.grid-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+.toggle {
+  text-align: center;
+  padding: 0;
+  color: white;
+}
+
+.toggle li {
+  display: inline;
+  padding: 0 60px;
+}
+
+.toggle label {
+  font-size: 1.2em;
+  padding: 0 10px;
+}
+
+.grid {
+  margin: 0 auto;
+}
+
+.item {
+  color: white;
+  display: table;
+  font-size: 1.4em;
+  text-align: center;
+  margin: 5px;
+  width: 270px;
+}
+
+.item:hover .title {
+  opacity: 1;
+}
+
+.title {
+  display: table-cell;
+  vertical-align: middle;
+  opacity: 0;
+  transition: opacity 0.5s;
+  -webkit-transition: opacity 0.5s;
+}
+
+.i1 {
+   background-image:url('http://3e-pr0cess-s33dbank.com/strange/vrey/burned.jpg');
+    background-size: 500px 375px;
+     background-repeat: no-repeat;
+  height: 280px;
+  object-fit: contain;
+}
+
+.i3, .i6, .i7  {
+  background: black;
+  height: 280px;
+  opacity:0.5;
+}
+
+.i2, .i4, .i5, .i8 {
+  background: Red;
+  height: 180px;
+  opacity: 0.75;
+}
+
+.i9, .i10, .i11, .i12, .i13, .i14, .i15 {
+  background: Red;
+  height: 180px;
+  opacity:0.70;
+}
+
+.i4 {
+  height: 349px;
+}
+
+.expand {
+  transition: width 0.5s, height 0.5s, left 0.5s, top 0.5s;
+  -webkit-transition: width 0.5s, height 0.5s, left 0.5s, top 0.5s;
+  height: 45%;
+  width: 45%;
+  left: 0 !important;
+  top: 0 !important;
+  z-index: 99;
+  text-indent: -9999px;
+}

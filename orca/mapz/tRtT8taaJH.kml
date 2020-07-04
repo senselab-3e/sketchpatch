@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Style id="ba519db580">
+      <LineStyle>
+        <color>a60000ff</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>a600ff00</color>
+        <colorMode>normal</colorMode>
+        <fill>1</fill>
+      </PolyStyle>
+    </Style>
+    <Style id="39afd6ff71">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>http://3e-pr0cess-s33dbank.com/orca/thingies/compost.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark id="e3818c9158">
+      <description />
+      <styleUrl>#ba519db580</styleUrl>
+      <Polygon>
+        <altitudeMode>clampToGround</altitudeMode>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>-46.3916054729214,35.6037187406976
+-46.8325216291433,31.5231479357362
+-48.1410986897609,27.3961560434487
+-50.2752779113453,23.3938891516071
+-53.1664650177062,19.6933618206241
+-56.7217348763685,16.4624948645546
+-60.826818188789,13.8472509784939
+-65.3497741996326,11.9629709114501
+-70.1452313812104,10.8901502878895
+-75.059059793991,10.6733658381818
+-79.9333249496762,11.3215009310636
+-84.6113639556036,12.8078693632591
+-88.9428207890193,15.0699243241905
+-92.7884788633628,18.0094588171147
+-96.0247355639067,21.4950318486757
+-98.5475749374946,25.3683279361155
+-100.27591085086,29.4550713214239
+-101.154193165669,33.5793034698452
+-101.154193165669,37.5781866103691
+-100.27591085086,41.3139810187753
+-98.5475749374946,44.6807791784844
+-96.0247355639067,47.6053889390049
+-92.7884788633628,50.0434491898727
+-88.9428207890193,51.972748890229
+-84.6113639556036,53.3857334063842
+-79.9333249496762,54.2826705622711
+-75.059059793991,54.6663235573847
+-70.1452313812104,54.5384953173257
+-65.3497741996326,53.8985436427676
+-60.826818188789,52.7438760727772
+-56.7217348763685,51.0724237792634
+-53.1664650177062,48.8870569495042
+-50.2752779113453,46.2017360491999
+-48.1410986897609,43.0488192797042
+-46.8325216291433,39.4863729349734
+-46.3916054729214,35.6037187406976</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <GroundOverlay id="b722a91444">
+      <Icon>
+        <href>http://3e-pr0cess-s33dbank.com/orca/thingies/compost.png</href>
+      </Icon>
+      <altitudeMode>clampToGround</altitudeMode>
+      <LatLonBox>
+        <north>42.2935641921703</north>
+        <south>42.2935641921703</south>
+        <east>-12.65625</east>
+        <west>-39.0234375</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <GroundOverlay id="847cd7c014">
+      <Icon>
+        <href>http://3e-pr0cess-s33dbank.com/orca/thingies/compost.png</href>
+      </Icon>
+      <altitudeMode>clampToGround</altitudeMode>
+      <LatLonBox>
+        <north>42.1634034242242</north>
+        <south>42.1634034242242</south>
+        <east>-15.29296875</east>
+        <west>-35.5078125</west>
+      </LatLonBox>
+    </GroundOverlay>
+  </Document>
+</kml>

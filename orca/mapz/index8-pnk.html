@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+  #map {
+  height:100%;
+  width 400px;
+  }
+
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <script>
+  function initMap(){
+
+    // Create a new StyledMapType object, passing it an array of styles,
+         // and the name to be displayed on the map type control.
+         var styledMapType = new google.maps.StyledMapType(
+           [
+{
+  "featureType": "administrative",
+  "elementType": "geometry",
+  "stylers": [
+    {
+      "visibility": "off"
+    }
+  ]
+},
+{
+  "featureType": "landscape",
+  "stylers": [
+    {
+      "color": "#ea248f"
+    }
+  ]
+},
+{
+  "featureType": "landscape",
+  "elementType": "labels.text",
+  "stylers": [
+    {
+      "color": "#d77aba"
+    }
+  ]
+},
+{
+  "featureType": "landscape",
+  "elementType": "labels.text.fill",
+  "stylers": [
+    {
+      "color": "#d77aba"
+    }
+  ]
+},
+{
+  "featureType": "poi",
+  "stylers": [
+    {
+      "color": "#d77aba"
+    },
+    {
+      "visibility": "off"
+    }
+  ]
+},
+{
+  "featureType": "road",
+  "stylers": [
+    {
+      "visibility": "off"
+    }
+  ]
+},
+{
+  "featureType": "road",
+  "elementType": "labels.icon",
+  "stylers": [
+    {
+      "visibility": "off"
+    }
+  ]
+},
+{
+  "featureType": "transit",
+  "stylers": [
+    {
+      "visibility": "off"
+    }
+  ]
+},
+{
+  "featureType": "water",
+  "stylers": [
+    {
+      "color": "#fd008e"
+    }
+  ]
+}
+],
+             {name: 'Pinkest Pink'});
+
+
+    //map options
+
+    var options = {
+      zoom: 8,
+      center: {lat: 45.695747, lng: -73.478310},
+      mapTypeControlOptions: {
+        mapTypeIds: ['roadmap', 'satellite', 'hybrid', 'terrain',
+              'pink']
+}
+}
+
+
+    //new map
+    var map = new google.maps.Map(document.getElementById('map'), options);
+    //add marker
+  //  var marker = new google.maps.Marker({
+//      map:map
+//    });
+
+    //Associate the styled map with the MapTypeId and set it to display.
+        map.mapTypes.set('pink', styledMapType);
+        map.setMapTypeId('pink');
+
+
+  }
+  </script>
+  <script async defer
+              src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBpVaMZvNOttlwMXKHZ7N3IvXAM2dTyTvM&libraries=visualization&callback=initMap">
+</script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+drwxr-xr-x    6 erinma3    erinma3           156 Jan  8 18:35 .
+drwxr-xr-x   23 erinma3    erinma3          4096 Jan  8 18:35 ..
+-rw-r--r--    1 erinma3    erinma3          6148 Jan  8 18:35 .DS_Store
+-rw-r--r--    1 erinma3    erinma3          1094 Jan  8 18:35 LICENSE
+drwxr-xr-x    2 erinma3    erinma3            54 Jan  8 18:35 css
+-rw-r--r--    1 erinma3    erinma3         11707 Jan  8 18:35 flor.js
+drwxr-xr-x    2 erinma3    erinma3            28 Jan  8 18:35 img
+-rw-r--r--    1 erinma3    erinma3          1381 Jan  8 18:35 index.html
+drwxr-xr-x    2 erinma3    erinma3            91 Jan  8 18:35 libraries
+-rw-r--r--    1 erinma3    erinma3          1809 Jan  8 18:35 sketch.js
+drwxr-xr-x    5 erinma3    erinma3            57 Jan  8 18:35 vendor
+-rw-r--r--    1 erinma3    erinma3           502 Jan  8 18:35 weft.js

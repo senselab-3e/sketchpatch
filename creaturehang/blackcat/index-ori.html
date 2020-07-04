@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.js"></script>
+    <!-- <script type="text/javascript"  src="js/blackc.js"></script> -->
+
+  </head>
+  <body onload="blackcat('coperino')">
+    <script>
+    let copey;
+    function preload() {
+    arp = loadSound("assets/arp.mp3");
+    buoyverse = loadSound("assets/buoyverse.mp3");
+    bye = loadSound("assets/bye.mp3");
+    chchch = loadSound("assets/chchch.mp3");
+    crispykeys = loadSound("assets/crispykeys.mp3");
+    cutcall = loadSound("assets/cutcall.mp3");
+    globz = loadSound("assets/globz.mp3");
+    hh = loadSound("assets/hh.mp3");
+    imfine = loadSound("assets/imfine.mp3");
+    ips = loadSound("assets/ips.mp3");
+    laura = loadSound("assets/laura.mp3");
+    maap = loadSound("assets/maap.mp3");
+    oops = loadSound("assets/oops.mp3");
+    plwob = loadSound("assets/plwob.mp3");
+    pop = loadSound("assets/pop.mp3");
+    rec = loadSound("assets/rec.mp3");
+    rolodex = loadSound("assets/rolodex.mp3");
+    sideclink = loadSound("assets/sideclink.mp3");
+    skqui = loadSound("assets/skqui.mp3");
+    sleaper = loadSound("assets/sleaper.mp3");
+    sleeper = loadSound("assets/sleeper.mp3");
+    squeak = loadSound("assets/squeak.mp3");
+    swing = loadSound("assets/swing.mp3");
+    tinyspill = loadSound("assets/tinyspill.mp3");
+    yesyes = loadSound("assets/yesyes.mp3");
+    zpl = loadSound("assets/zpl.mp3");
+    }
+
+    function setup(){
+     frameRate(60);
+
+    }
+//     function mousePressed(){
+//  trigSound(copey);
+// }
+
+    const colors = {
+      "a":"arp",
+      "b":"buoyverse",
+      "c":"bye",
+      "d":"chchch",
+      "e":"crispykeys",
+      "f":"cutcall",
+      "g":"globz",
+      "h":"hh",
+      "i":"imfine",
+      "j":"ips",
+      "k":"laura",
+      "l":"maap",
+      "m":"oops",
+      "n":"plwob",
+      "o":"pop",
+      "p":"rec",
+      "q":"rolodex",
+      "r":"sideclink",
+      "s":"skqui",
+      "t":"sleaper",
+      "u":"sleeper",
+      "v":"squeak",
+      "w":"swing",
+      "x":"tinyspill",
+      "y":"yesyes",
+      "z":"zpl"
+    }
+    function blackcat(id){
+    let ll = document.getElementById(id);
+    ll.innerHTML = ll.innerText.split("").map(l => `<a href="#" onclick="trigSound(${colors[l]})">${l}</a>`).join("");
+    }
+
+    function trigSound(buf) {
+    buf.play(0, 1.0, 1.0, 0, buf.duration());
+    }
+
+
+</script>
+
+    <div id="coperino">a a a a a abbbbbbbbbracaaaadaaaabbbrrrr  a a a a a a  hello creachii, here is a tiny sound alphabet oooohhhiijjjkklmnopqrstuvwxyzabcdeffggggg</div>
+
+
+  </body>
+</html>

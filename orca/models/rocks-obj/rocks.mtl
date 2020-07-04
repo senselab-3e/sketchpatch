@@ -1,0 +1,33 @@
+# Blender MTL File: 'None'
+# Material Count: 3
+
+newmtl Standard
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.376471 0.078431 0.078431
+Ks 0.072941 0.041961 0.010980
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump rock.jpg
+map_Kd rock_dark.jpg
+
+newmtl rockMaterial
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.690196 0.690196 0.690196
+Ks 0.008784 0.002667 0.002667
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd rock.jpg
+
+newmtl rock_dark_normalMaterial
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.690196 0.690196 0.690196
+Ks 0.001176 0.001176 0.001176
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd rock_dark_normal.png

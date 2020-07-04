@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Spectral');
+
+h2{
+  padding:420px;
+  color: yellow;
+  font-family: 'Spectral', serif;
+  font-size: 36px;
+
+}
+
+.img-bg{
+  background:url(image33.jpg);
+    background-size: 70% 70%;
+        background-repeat: no-repeat;
+
+}
+
+#biggerfontlink {
+  font-family: 'K2D', sans-serif;
+  font-size: 15px;
+  color: white;
+}
+
+p {
+  font-family: 'K2D', sans-serif;
+  font-size: 15px;
+  color: white;
+}
+

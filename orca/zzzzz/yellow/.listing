@@ -1,0 +1,15 @@
+drwxr-xr-x    5 erinma3    erinma3           240 Jan  8 18:35 .
+drwxr-xr-x    4 erinma3    erinma3           159 Jan  8 18:35 ..
+drwxr-xr-x    2 erinma3    erinma3            23 Jan  8 18:35 data
+-rw-r--r--    1 erinma3    erinma3           480 Jan  8 18:35 index.html
+-rw-r--r--    1 erinma3    erinma3           481 Jan  8 18:35 index2.html
+-rw-r--r--    1 erinma3    erinma3           481 Jan  8 18:35 index3.html
+-rw-r--r--    1 erinma3    erinma3           481 Jan  8 18:35 index4.html
+-rw-r--r--    1 erinma3    erinma3           481 Jan  8 18:35 index5.html
+drwxr-xr-x    2 erinma3    erinma3            55 Jan  8 18:35 libraries
+-rw-r--r--    1 erinma3    erinma3           770 Jan  8 18:35 sketch.js
+-rw-r--r--    1 erinma3    erinma3           774 Jan  8 18:35 sketch2.js
+-rw-r--r--    1 erinma3    erinma3           779 Jan  8 18:35 sketch3.js
+-rw-r--r--    1 erinma3    erinma3           780 Jan  8 18:35 sketch4.js
+-rw-r--r--    1 erinma3    erinma3           771 Jan  8 18:35 sketch5.js
+drwxr-xr-x    2 erinma3    erinma3         12288 Jan  8 18:35 textualfeelers

@@ -1,0 +1,13 @@
+drwxr-xr-x    3 erinma3    erinma3           227 Jan  8 18:35 .
+drwxr-xr-x    4 erinma3    erinma3            63 Jan  8 18:35 ..
+-rw-r--r--    1 erinma3    erinma3           978 Jan  8 18:35 .eslintrc.js
+-rw-r--r--    1 erinma3    erinma3          7286 Jan  8 18:35 animation.js
+-rw-r--r--    1 erinma3    erinma3         12159 Jan  8 18:35 circle-collider.js
+drwxr-xr-x    2 erinma3    erinma3           202 Jan  8 18:35 collisions
+-rw-r--r--    1 erinma3    erinma3          2560 Jan  8 18:35 examples.js
+-rw-r--r--    1 erinma3    erinma3          8312 Jan  8 18:35 group.js
+-rw-r--r--    1 erinma3    erinma3          3061 Jan  8 18:35 input.js
+-rw-r--r--    1 erinma3    erinma3          3550 Jan  8 18:35 keycodes.js
+-rw-r--r--    1 erinma3    erinma3           887 Jan  8 18:35 sketch-properties.js
+-rw-r--r--    1 erinma3    erinma3         20054 Jan  8 18:35 sprite.js
+-rw-r--r--    1 erinma3    erinma3          4607 Jan  8 18:35 spritesheet.js

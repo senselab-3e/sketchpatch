@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata|K2D" rel="stylesheet">
+
+<meta charset="UTF-8">
+<title></title>
+
+<script>
+
+function loadgifverse(){
+var random= Math.floor(Math.random() * 7) + 0;
+var items = new Array();
+ 	items[0]="<a href='typewriter.html' target='_blank' style='text-decoration: none'> <br> I used to have an old red typewriter when I was a child. </a>"; //a linked image
+    items[1]="<a href='pxl2000.html' target='_blank' style='text-decoration: none'> <br> conversations of a future-past.  </a>"; //a linked image
+    items[2]="<a href='img/vrumvrum.png' target='_blank' style='text-decoration: none'>  <br> driving my car  </a>"; //a linked image
+   items[3]="<a href='kazu.html'target='_blank' style='text-decoration: none'>  <br> ** now playing: Gigi D'Agostino - L'amour toujours** </a>"; //a linked image
+   items[4]="<a href='death.html' target='_blank' style='text-decoration: none'>  <br> death.jpg  </a>"; //a linked image
+    items[5]="<a href='faciality.htm' target='_blank' style='text-decoration: none'>  <br> Year Zero: Faciality </a>"; //a linked image
+    items[6]="<a href='spectersofthelaundromat.html' target='_blank' style='text-decoration: none'>  <br> the specters of the laundromat </a>"; //a linked image
+
+document.getElementById("placeholderdiv").innerHTML=items[random];
+}
+
+
+
+function start() {
+  loadgifverse();
+
+}
+window.onload = start;
+
+</script>
+
+</head>
+
+<body>
+
+	<div id="placeholderdiv"></div>
+
+
+
+	</body>
+	</html>

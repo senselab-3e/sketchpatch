@@ -1,0 +1,16 @@
+drwxr-xr-x    2 erinma3    erinma3          4096 Jan  8 18:34 .
+drwxr-xr-x    3 erinma3    erinma3          4096 Jan  8 18:34 ..
+-rw-r--r--    1 erinma3    erinma3         15642 Jan  8 18:34 custom-html-widgets.js
+-rw-r--r--    1 erinma3    erinma3          5531 Jan  8 18:34 custom-html-widgets.min.js
+-rw-r--r--    1 erinma3    erinma3          4288 Jan  8 18:34 media-audio-widget.js
+-rw-r--r--    1 erinma3    erinma3          1435 Jan  8 18:34 media-audio-widget.min.js
+-rw-r--r--    1 erinma3    erinma3         10362 Jan  8 18:34 media-gallery-widget.js
+-rw-r--r--    1 erinma3    erinma3          3761 Jan  8 18:34 media-gallery-widget.min.js
+-rw-r--r--    1 erinma3    erinma3          5473 Jan  8 18:34 media-image-widget.js
+-rw-r--r--    1 erinma3    erinma3          2009 Jan  8 18:34 media-image-widget.min.js
+-rw-r--r--    1 erinma3    erinma3          7026 Jan  8 18:34 media-video-widget.js
+-rw-r--r--    1 erinma3    erinma3          2700 Jan  8 18:34 media-video-widget.min.js
+-rw-r--r--    1 erinma3    erinma3         42759 Jan  8 18:34 media-widgets.js
+-rw-r--r--    1 erinma3    erinma3         14259 Jan  8 18:34 media-widgets.min.js
+-rw-r--r--    1 erinma3    erinma3         18101 Jan  8 18:34 text-widgets.js
+-rw-r--r--    1 erinma3    erinma3          5876 Jan  8 18:34 text-widgets.min.js

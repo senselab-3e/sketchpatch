@@ -1,0 +1,10 @@
+drwxr-xr-x    5 erinma3    erinma3           144 Jan  8 18:34 .
+drwxr-xr-x    5 erinma3    erinma3           102 Jan  8 18:34 ..
+-rw-r--r--    1 erinma3    erinma3        134430 Jan  8 18:34 Compat.php
+drwxr-xr-x    7 erinma3    erinma3          4096 Jan  8 18:34 Core
+drwxr-xr-x    6 erinma3    erinma3          4096 Jan  8 18:34 Core32
+-rw-r--r--    1 erinma3    erinma3         54810 Jan  8 18:34 Crypto.php
+-rw-r--r--    1 erinma3    erinma3         55119 Jan  8 18:34 Crypto32.php
+-rw-r--r--    1 erinma3    erinma3         53281 Jan  8 18:34 File.php
+drwxr-xr-x    2 erinma3    erinma3            31 Jan  8 18:34 PHP52
+-rw-r--r--    1 erinma3    erinma3           158 Jan  8 18:34 SodiumException.php

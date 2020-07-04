@@ -1,0 +1,24 @@
+<html>
+<head>
+  <title>My A-Frame Scene</title>
+  <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+  <script src="https://unpkg.com/aframe-geojson-component/dist/aframe-geojson-component.min.js"></script>
+</head>
+
+<body>
+  <a-scene>
+    <a-assets>
+    <a-asset-item id="world-geojson" src="world-110m.v1.json"> </a-asset-item>
+    </a-assets>
+
+    <a-entity
+      geometry="primitive: sphere; radius: 1;"
+      material="color: #444;"
+      geojson="
+        src: world-110m.v1.json;
+        topologyObject: countries;
+        "
+      />
+  </a-scene>
+</body>
+</html>

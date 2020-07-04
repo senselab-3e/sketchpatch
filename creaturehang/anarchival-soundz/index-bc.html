@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>the ecology of zp33dz</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.js"></script>
+    <!-- <script type="text/javascript"  src="js/blackc.js"></script> -->
+
+  </head>
+  <body onload="blackcat('ecology of zp33dz'); blackcat('water'); blackcat('concept'); blackcat('sonic nexus'); blackcat('shape-shifter');">
+    <script>
+
+    function preload() {
+    arp = loadSound("assets/arp.mp3");
+    buoyverse = loadSound("assets/buoyverse.mp3");
+    bye = loadSound("assets/bye.mp3");
+    chchch = loadSound("assets/chchch.mp3");
+    crispykeys = loadSound("assets/crispykeys.mp3");
+    cutcall = loadSound("assets/cutcall.mp3");
+    globz = loadSound("assets/globz.mp3");
+    hh = loadSound("assets/hh.mp3");
+    imfine = loadSound("assets/imfine.mp3");
+    ips = loadSound("assets/ips.mp3");
+    laura = loadSound("assets/laura.mp3");
+    maap = loadSound("assets/maap.mp3");
+    oops = loadSound("assets/oops.mp3");
+    plwob = loadSound("assets/plwob.mp3");
+    poppin = loadSound("assets/pop.mp3");
+    rec = loadSound("assets/rec.mp3");
+    rolodex = loadSound("assets/rolodex.mp3");
+    sideclink = loadSound("assets/sideclink.mp3");
+    skqui = loadSound("assets/skqui.mp3");
+    sleaper = loadSound("assets/sleaper.mp3");
+    sleeper = loadSound("assets/sleeper.mp3");
+    squeak = loadSound("assets/squeak.mp3");
+    swing = loadSound("assets/swing.mp3");
+    tinyspill = loadSound("assets/tinyspill.mp3");
+    yesyes = loadSound("assets/yesyes.mp3");
+    zpl = loadSound("assets/zpl.mp3");
+    }
+
+    function setup(){
+     frameRate(60);
+
+    }
+
+    const colors = {
+      "a":"arp",
+      "b":"buoyverse",
+      "c":"bye",
+      "d":"chchch",
+      "e":"crispykeys",
+      "f":"cutcall",
+      "g":"globz",
+      "h":"hh",
+      "i":"imfine",
+      "j":"ips",
+      "k":"laura",
+      "l":"maap",
+      "m":"oops",
+      "n":"plwob",
+      "o":"poppin",
+      "p":"rec",
+      "q":"rolodex",
+      "r":"sideclink",
+      "s":"skqui",
+      "t":"sleaper",
+      "u":"sleeper",
+      "v":"squeak",
+      "w":"swing",
+      "x":"tinyspill",
+      "y":"yesyes",
+      "z":"zpl"
+    }
+    function blackcat(id){
+    let ll = document.getElementById(id);
+    ll.innerHTML = ll.innerText.split(" ").map(l => `<a style="text-decoration:none;" href="#" onclick="trigSound(${colors[l[0]]}); if(${l.length>1}){trigSound(${colors[l[1]]});} if(${l.length>2}){trigSound(${colors[l[2]]});} ">${l}</a>`).join(" ");
+    }
+
+    function trigSound(buf) {
+    buf.play(0, 1.0, 1.0, 0, buf.duration());
+    }
+
+
+</script>
+
+<div id="ecology of zp33dz">
+It is not just a matter of music but of how to live: it is by speed and slowness that one slips in amongst things, that one connects with something else. One never commences; one never has a tabula rasa; one slips in, enters in the middle; one takes up or lays down rhythms. (Gilles Deleuze, Spinoza, Practical Philosophy, 1970)
+</div>
+<br>
+<div id="water">
+  Water is the most perfect environment in which movement can be extracted from the thing moved, or mobility from the movement itself. (Deleuze)
+</div>
+<br>
+<div id="concept">
+  “The concept is defined by the inseparability of a finite number of heterogeneous components traversed by a point of absolute survey at infinite speed... In this sense the concept is act of thought, it is thought operating at infinite (although greater or lesser) speed...
+It is infinite through its survey or its speed but finite through its movement that traces the contour or its components.” (Deleuze & Guattari, What is Philosophy?, 21)
+</div>
+<br>
+<div id="sonic nexus">
+The concept of a sonic nexus, taken as a collective entity (body) defined by its degree of vibrational consistency.
+</div>
+<br>
+<div id="shape-shifter">
+Space-shifter is an affective ‘rhythm machine organizing relations between pulsating bodies. Sounds...dematerialize the substance of things they resounded and extend their own patterns...they drift off things and link up with one another.
+</div>
+  </body>
+</html>

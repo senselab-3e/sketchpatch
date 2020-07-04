@@ -1,0 +1,8 @@
+drwxr-xr-x    5 erinma3    erinma3           113 Jan  8 18:34 .
+drwxr-xr-x    5 erinma3    erinma3            67 Jan  8 18:34 ..
+-rw-r--r--    1 erinma3    erinma3         17234 Jan  8 18:34 dashboardView.js
+-rw-r--r--    1 erinma3    erinma3           823 Jan  8 18:34 oauth.js
+-rw-r--r--    1 erinma3    erinma3           579 Jan  8 18:34 promotion.js
+drwxr-xr-x    2 erinma3    erinma3            80 Jan  8 18:34 sections
+drwxr-xr-x    2 erinma3    erinma3            43 Jan  8 18:34 services
+drwxr-xr-x    3 erinma3    erinma3            19 Jan  8 18:34 widgets

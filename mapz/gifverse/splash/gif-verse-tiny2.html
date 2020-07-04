@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+	<style>
+	
+		body {
+     background-color: darkcyan;
+     -webkit-animation: random 100s infinite;
+     animation: random 100s infinite;
+}
+		
+@keyframes  random {
+    15% { background-color:peachpuff; } 
+    30% { background-color: darkseagreen; } 
+    45% { background-color: darkblue; } 
+    60% { background-color: darkolivegreen; }
+    75% { background-color: darkslateblue; } 
+	
+		}	
+		
+		
+		#blanket {
+			width: 2000px;
+			height: 300px;
+			margin-left:  400px;
+			
+		}
+		
+
+		
+		#patch {
+		
+		background-repeat: repeat;
+		width: 50px;
+			height: 50px;
+			
+		}
+		
+		
+		.tiny {
+			
+		   
+	-ms-transform: scale(0.05,0.05); /* IE 9 */
+   -webkit-transform: scale(0.05,0.05); /* Safari */
+    transform: scale(0.05,0.05);*/
+			
+		}
+		
+		.huge { 
+		
+		
+			
+		/* height: 300%;  OR */
+			
+	-ms-transform: scale(0.02, 3); /* IE 9 */
+    -webkit-transform: scale(0.02, 3); /* Safari */
+    transform: scale(0.02, 3); 
+			
+			/* increases the <div> element to be two times of its original width, and three times of its original height: */
+		
+		}
+	
+	</style>
+	
+	<script>
+		
+		
+function loadgifverse(){
+  var random= Math.floor(Math.random() * 11) + 0;
+  var verses = ["url('0.gif')",
+                 "url('1.gif')",
+                 "url('2.gif')",
+                 "url('3.gif')",
+				"url('4.gif')",
+				"url('05.gif')",
+				"url('06.gif')",
+				"url('07.gif')",
+				"url('08.gif')",
+				"url('09.gif')",
+				"url('10.gif')",
+                 ];
+  document.getElementById("patch").style.backgroundImage=verses[random];
+}
+		
+		
+	
+		
+	</script>
+
+</head>
+
+<body onLoad="loadgifverse()">
+
+	<a href=""><div id="blanket"><div id="patch"></div></div></a>
+	
+	
+	
+
+</body>
+</html>

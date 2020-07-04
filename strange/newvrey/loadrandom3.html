@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata|K2D" rel="stylesheet">
+
+<meta charset="UTF-8">
+<title></title>
+
+<script>
+
+function loadgifverse3(){
+var random= Math.floor(Math.random() * 7) + 0;
+var items = new Array();
+ 	items[0]="<a href='rehearsing.html' target='_blank' style='text-decoration: none'> <font face='Dosis' color='white'> <br> everything we write as a question </font> </a>"; //a linked image
+    items[1]="<a href='brazilianelections.html' target='_blank' style='text-decoration: none'> <font face='Dosis' color='white'> <br> Dougie Jones doesn't take position </font> </a>"; //a linked image
+    items[2]="<a href='underconstruction.html' target='_blank' style='text-decoration: none'> <font face='Dosis' color='white'> <br> my house is falling apart </font> </a>"; //a linked image
+   items[3]="<a href='chinotto.html'target='_blank' style='text-decoration: none'> <font face='Dosis' color='white'>  <br>  let's drink some chinotto! </font> </a>"; //a linked image
+   items[4]="<a href='oopsididitagain.html' target='_blank' style='text-decoration: none'> <font face='Dosis' color='white'> <br> oops, i did it again! </font> </a>"; //a linked image
+    items[5]="<a href='hauntingboots.htm' target='_blank' style='text-decoration: none'> <font face='Dosis' color='white'> <br> These boots are made for haunting </font> </a>"; //a linked image
+    items[6]="<a href='whatwouldhavehappened.html' target='_blank' style='text-decoration: none'> <font face='Dosis' color='white'> <br> what would have happened? </font> </a>"; //a linked image
+
+document.getElementById("placeholderdiv3").innerHTML=items[random];
+}
+
+
+
+function start() {
+  loadgifverse3();
+
+}
+window.onload = start;
+
+</script>
+
+</head>
+
+<body>
+
+	<div id="placeholderdiv2"></div>
+
+
+
+	</body>
+	</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+
+    <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene >
+      <a-assets>
+        <img id="texture" src="img/bluee.jpg">
+        <img id="texture2" src="img/bubl.jpg">
+        <img id="texture3" src="img/redd.jpg">
+        <img id="cephelolopod-skin" src="thingies/cephskin.png">
+        <img id="compost" src="thingies/compost.png">
+        <img id="reflective" src="thingies/circlemetal.png">
+        <img id="edges" src="thingies/mintwashu.png">
+        <img id="slide" src="thingies/onpic.png">
+        <img id="bubblerock" src="thingies/corlarock.png">
+        <img id="" src="">
+        <img id="" src="">
+        <img id="" src="">
+        <img id="" src="">
+            </a-assets>
+
+
+
+      <a-entity link="href:http://3e-pr0cess-s33dbank.com/strange/index2.html;">
+      </a-entity>
+
+      <a-camera position="0 7 5">
+        <a-cursor color="blue" />
+      </a-camera>
+
+      <a-box position="-3 4 -3" rotation="80 45 10" src="#texture">
+        <a-animation attribute="rotation"
+                     dur="10000"
+                     fill="forwards"
+                     to="360 360 360"
+                     repeat="indefinite"
+                     ></a-animation>
+
+      </a-box>
+
+        <a-entity link="href: index.html; title: My Homepage; image: #cephelolopod-skin">
+        </a-entity>
+
+      <a-box position="2 8 -9" rotation="0 9 100" src="#texture3">
+        <a-animation attribute="rotation"
+                     dur="10000"
+                     fill="forwards"
+                     to="360 360 360"
+                     repeat="indefinite"
+                     ></a-animation>
+
+      </a-box>
+
+      <a-box position="10 13 -2" rotation="180 45 10" src="#texture2">
+        <a-animation attribute="rotation"
+                     dur="10000"
+                     fill="forwards"
+                     to="360 360 360"
+                     repeat="indefinite"
+                     ></a-animation>
+
+      </a-box>
+
+        <a-image position=" 2 -40 1" src="#cephelolopod-skin"></a-image>
+        <a-image position="2 8 0" src="#compost"></a-image>
+        <a-image position="2 18 1" src="#reflective"></a-image>
+        <a-image position="20 8 1" src="#edges"></a-image>
+        <a-image position="12 8 1" src="#slide"></a-image>
+        <a-image position="2 8 -5" src="#bubblerock"></a-image>
+
+
+
+        <a-sky color="#6EBAA7"></a-sky>
+    </a-scene>
+  </body>
+</html>

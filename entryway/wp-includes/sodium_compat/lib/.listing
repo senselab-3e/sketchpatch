@@ -1,0 +1,7 @@
+drwxr-xr-x    2 erinma3    erinma3           126 Jan  8 18:34 .
+drwxr-xr-x    5 erinma3    erinma3           102 Jan  8 18:34 ..
+-rw-r--r--    1 erinma3    erinma3          4161 Jan  8 18:34 constants.php
+-rw-r--r--    1 erinma3    erinma3          1345 Jan  8 18:34 namespaced.php
+-rw-r--r--    1 erinma3    erinma3         40955 Jan  8 18:34 php72compat.php
+-rw-r--r--    1 erinma3    erinma3          4491 Jan  8 18:34 php72compat_const.php
+-rw-r--r--    1 erinma3    erinma3         24518 Jan  8 18:34 sodium_compat.php

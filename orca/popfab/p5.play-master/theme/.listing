@@ -1,0 +1,12 @@
+drwxr-xr-x    6 erinma3    erinma3           170 Jan  8 18:35 .
+drwxr-xr-x    6 erinma3    erinma3           315 Jan  8 18:35 ..
+-rw-r--r--    1 erinma3    erinma3            19 Jan  8 18:35 .gitignore
+-rw-r--r--    1 erinma3    erinma3          1106 Jan  8 18:35 LICENSE
+-rw-r--r--    1 erinma3    erinma3           454 Jan  8 18:35 Makefile
+-rw-r--r--    1 erinma3    erinma3          2462 Jan  8 18:35 README.md
+drwxr-xr-x    6 erinma3    erinma3            89 Jan  8 18:35 assets
+drwxr-xr-x    2 erinma3    erinma3            24 Jan  8 18:35 helpers
+drwxr-xr-x    2 erinma3    erinma3            51 Jan  8 18:35 layouts
+-rw-r--r--    1 erinma3    erinma3           588 Jan  8 18:35 package.json
+drwxr-xr-x    2 erinma3    erinma3           255 Jan  8 18:35 partials
+-rw-r--r--    1 erinma3    erinma3            82 Jan  8 18:35 theme.json

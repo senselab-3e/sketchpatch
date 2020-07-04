@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+//thingie
+function releaseThingie() {
+    document.getElementById("thingie").src = "thingies/drawerbox.png";
+}
+
+//peel
+var newsrc = "peels/peel1.png";
+
+function peel() {
+if ( newsrc == "peels/peel1.png" ) {
+	document.images["rr"].src = "peels/peel1.png";
+	document.images["rr"].alt = "Peel";
+	newsrc  = "oranges/orange2.png";
+}
+else {
+	document.images["rr"].src = "oranges/orange2.png";
+	document.images["rr"].alt = "Orange";
+	newsrc  = "peels/peel1.png";
+}
+}
+
+</script>
+</head>
+<body>
+<div onclick="peel();"><img src="oranges/orange2.png" id="rr" onclick="releaseThingie();" width="100" height="100"/></div>
+
+<img id="thingie" src="thingies/cephskin.png" width="107" height="98">
+
+
+</body>
+</html>

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<img id="txtflr" src="assets/images/lightblue.png" alt="copey">
+  <head>
+    <title>(sound on)</title>
+    <meta charset="utf-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <style>
+
+    #txtflr {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 120vh;
+    }
+
+    #copeyBlue {
+      position: absolute;
+      padding: 7%;
+
+    }
+    .cen{
+      text-align: center;
+    }
+
+    h1 {
+      color: #497482;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 34pt;
+      font-style: italic;
+      opacity: 0;
+    }
+    p {
+      font-family: "Courier New", Courier, monospace;
+      /* font-style: italic; */
+      font-weight: bold;
+      font-size: 10pt;
+      opacity: 0;
+    }
+
+    button{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 24pt;
+      font-style: italic;
+      font-weight: bold;
+      color: lightblue;
+
+    }
+
+    #copeyButton{
+    width: 250px;
+    height: 188px;
+    background-image:url('assets/images/img_2157_button.jpg');
+    background-repeat:no-repeat;
+
+    }
+
+    #helsiButton{
+      width: 250px;
+      height: 188px;
+      background-image:url('assets/images/img_helsi_button.jpg');
+      background-repeat:no-repeat;
+    }
+
+    #amstyButton{
+      width: 250px;
+      height: 188px;
+      background-image:url('assets/images/img_2009_button.jpg');
+      background-repeat:no-repeat;
+    }
+
+    </style>
+  </head>
+  <body onload="blackcat('anarchivalSoundz'); blackcat('zp33dz'); blackcat('deleuze'); blackcat('affectivedimension'); blackcat('spinozaWhitehead'); blackcat('sonicNexus'); blackcat('firstTask'); blackcat('vibratingNexus'); blackcat('rhythmanalytic'); blackcat('in-extensive'); blackcat('ecologyOfSpeeds'); blackcat('rhythmicConsistency');">
+    <script>
+
+    var copey;
+    var amsty;
+    var helsi;
+    var ae, title;
+    var minmov = false;
+
+    function preload() {
+      copey = loadSound('assets/minmovs/copey.mp3');
+      amsty = loadSound('assets/minmovs/amsty.mp3');
+      helsi = loadSound('assets/minmovs/helsi.mp3');
+
+    arp = loadSound("assets/arp.mp3");
+    buoyverse = loadSound("assets/buoyverse.mp3");
+    bye = loadSound("assets/bye.mp3");
+    chchch = loadSound("assets/chchch.mp3");
+    crispykeys = loadSound("assets/crispykeys.mp3");
+    cutcall = loadSound("assets/cutcall.mp3");
+    globz = loadSound("assets/globz.mp3");
+    hh = loadSound("assets/hh.mp3");
+    imfine = loadSound("assets/imfine.mp3");
+    ips = loadSound("assets/ips.mp3");
+    laura = loadSound("assets/laura.mp3");
+    maap = loadSound("assets/maap.mp3");
+    oops = loadSound("assets/oops.mp3");
+    plwob = loadSound("assets/plwob.mp3");
+    poppin = loadSound("assets/pop.mp3");
+    rec = loadSound("assets/rec.mp3");
+    rolodex = loadSound("assets/rolodex.mp3");
+    sideclink = loadSound("assets/sideclink.mp3");
+    skqui = loadSound("assets/skqui.mp3");
+    sleaper = loadSound("assets/sleaper.mp3");
+    sleeper = loadSound("assets/sleeper.mp3");
+    squeak = loadSound("assets/squeak.mp3");
+    swing = loadSound("assets/swing.mp3");
+    tinyspill = loadSound("assets/tinyspill.mp3");
+    yesyes = loadSound("assets/yesyes.mp3");
+    zpl = loadSound("assets/zpl.mp3");
+    }
+
+//
+//
+// hello criiii
+//
+// wooaaaahhhhhh
+//
+// u can see???
+// i just click on u!
+//
+// or here?
+
+    const colors = {
+      "A":"arp", "a":"arp",
+      "B":"buoyverse", "b":"buoyverse",
+      "C":"bye", "c":"bye",
+      "D":"chchch", "d":"chchch",
+      "E":"crispykeys", "e":"crispykeys",
+      "F":"cutcall", "f":"cutcall",
+      "G":"globz", "g":"globz",
+      "H":"hh", "h":"hh",
+      "I":"imfine", "i":"imfine",
+      "J":"ips", "j":"ips",
+      "K":"laura", "k":"laura",
+      "L":"maap", "l":"maap",
+      "M":"oops", "m":"oops",
+      "N":"plwob", "n":"plwob",
+      "O":"poppin", "o":"poppin",
+      "P":"rec", "p":"rec",
+      "Q":"rolodex", "q":"rolodex",
+      "R":"sideclink", "r":"sideclink",
+      "S":"skqui", "s":"skqui",
+      "T":"sleaper", "t":"sleaper",
+      "U":"sleeper", "u":"sleeper",
+      "V":"squeak", "v":"squeak",
+      "W":"swing", "w":"swing",
+      "X":"tinyspill", "x":"tinyspill",
+      "Y":"yesyes", "y":"yesyes",
+      "Z":"zpl", "z":"zpl"
+    }
+    function blackcat(id){
+    let ll = document.getElementById(id);
+    ll.style.opacity = 1.0;
+    ll.innerHTML = ll.innerText.split(" ").map(l => `<a class="letterMap" style="text-decoration:none; opacity: 0;" onclick="trigSound(${colors[l[0]]}); if(${l.length>1}){trigSound(${colors[l[1]]});} if(${l.length>2}){trigSound(${colors[l[2]]});} ">${l}</a>`).join(" ");
+    ae = document.getElementsByClassName("letterMap");
+    title = document.getElementById('anarchivalSoundz');
+
+    }
+
+    function trigSound(buf) {
+    buf.play(0, 1.0, 1.0, 0, buf.duration());
+    }
+
+    </script>
+    <script src="js/mouse-lure.js"></script> <!-- js file for sound playback mouse control -->
+    <div id="copeyBlue" onmousemove="changeCo(rOut, gOut, bOut);">
+      <h1 id="anarchivalSoundz">anarchival soundzZ</h1>
+      <div class="cen">
+        <button id="copeyButton" onclick="minmov=true; stopBuffers(); loopBuf(copey); document.getElementById('txtflr').src='assets/images/img_2157.jpg'">Copenhagen</button>
+        <button id="amstyButton" onclick="minmov=true; stopBuffers(); loopBuf(amsty); document.getElementById('txtflr').src='assets/images/img_2009.jpg'">Amsterdam</button>
+        <button id="helsiButton" onclick="minmov=true; stopBuffers(); loopBuf(helsi); document.getElementById('txtflr').src='assets/images/img_helsi.jpg'">Helsinki</button>
+      </div>
+        <br><br>
+        <p id="zp33dz">1677: Ecology of Speeds.</p>
+        <p id="deleuze">
+          It is not just a matter of music but of how to live: it is by speed and slowness that one slips in amongst things, that one connects with something else. One never commences; one never has a tabula rasa; one slips in, enters in the middle; one takes up or lays down rhythms. - Gilles Deleuze, Spinoza: Practical Philosophy (1970)
+        </p>
+        <p id="affectivedimension">
+          What is the affective dimension of this rhythmic anarchitecture? Bearing in mind some important qualifcations, it can constructively be rerouted through Spinoza’s philosophy. If an entity can, in part, be conceived of in terms of its rhythmic composition of speeds and slowness, it also is expressed in terms of its power to affect
+          and be affected.
+        </p>
+        <p id="spinozaWhitehead">
+          At the outset of Process and Reality, Whitehead allies closely to Spinoza with some important reservations. Spinoza’s monist idea that there is one substance (also known as nature or god) with an infinite number of modes is commended by Whitehead for moving away from Descartes’ arbitrary dualism that maintained that there were only two irreconcilable substances: mind and body. Yet Whitehead rejects Spinoza’s monism because it leaves a new, unbridgeable gap between the one substance and the infinity of modes. So Whitehead subtracts the all-encompassing substance/nature, replacing it with a more Leibnizian notion of a multitude of entities. Instead of the fact of one enveloping substance, Whitehead opts for pure process as the ultimate. This is the means by which these atomistic entities, or actual occasions of experience, are connected.
+        </p>
+        <p id="sonicNexus">
+          This divergence has implications for how an entity’s change and invention is conceived. For Spinoza, a modi cation of substance, or mode, has a conatus, which is its tendency to persist beyond its current power. This can be contrasted with Whitehead’s notion of creative advance, which insists that instead of its essence being for it to persist in its power, even in an open-ended fashion, the essence of an actual occasion for Whitehead is to become other by reaching sat- isfaction and then perishing. At the same time, one important convergence be- tween Spinoza and Whitehead is in their nonanthropocentric notion of a body essential for a vibrational ontology. While not identical (the body for Whitehead is not exactly the actual occasion, but rather its associated milieu that contrib- utes its prehensive “data” with the actual occasion as an emergent subjective form), what Spinoza’s concept of the body and Whitehead’s notion of an actual occasion and its prehensive milieu share is that their humanoid manifestation is really just one instance among many. In both, what is implied here is that the individuated humanoid body is itself made up of a multitude of bodies and the resolution of this numerical problem is merely a matter of scale. As Deleuze argues, for Spinoza, “a body can be anything . . . a body of sounds . . . it can be a linguistic corpus, a social body, a collectivity. The longitudes and latitudes together constitute Nature, the plane of immanence or consistency, which is always variable and is consistently being altered, composed and recomposed, by individuals and collectivities.” This expanded definition of a body opens another angle onto the concept of a sonic nexus taken as a collective entity de ned by its degree of vibrational consistency.
+        </p>
+        <p id="firstTask">
+          The first task here would be to analyze the rhythmic composition of a nexus and the way such a nexus of experience retains the past, processes its present, and anticipates its future. A second task of such an approach would be to examine the affective potential of such a rhythmic composition, its power to affect and be affected, and its scope to increase this potential. A third task would relate to the transmutation of the nexus itself, its perishing in the process of invention.
+        </p>
+        <p id="vibratingNexus">
+To conceive of this vibrating nexus, it is first necessary to reconfigure its en- vironment as an ecology of speeds. To do this, specific aspects of the philosophy of Spinoza can be turned to, especially as a deviation from Cartesianism, which, having dominated Western thought, now haunts, according to Erik Davis and others, recent conceptions of the virtual. Spinoza replaces Cartesian dualism and its mind-body split with a parallelism in which mind and body are the same substance under di erent aspects. According to a crucial set of axioms from Spinoza’s Ethics, “All bodies are either in motion or at rest,” and “each single body can move at varying speeds.” Since there is only one substance, which cuts through all thought and extension, we cannot di erentiate bodies with reference to substance itself. Rather, Spinoza maintains that “bodies are distinguished from one another in respect of motion and rest, quickness and slowness.” As attributes of nature run parallel to one another, only another body can a ect a body, and only an idea can a ect another idea. Therefore, a body is set in mo- tion, at a speci c relation of speed or slowness, only because it was a ected to do so by another body in motion. Spinoza argues against the dominion of the mind over the body, hacking the a ective grid of the Cartesian head case and thereby inspiring a ective neuroscience several hundred years later. Most important, a body is, not because it thinks, but because of its power to affect and be affected. And for Spinoza, we do not yet know this power. We do not yet know what a body can do!
+        </p>
+        <p id="rhythmanalytic">
+        Understood through the rhythmanalytic method, the concept of speed at work is very di erent from Marinetti’s cryptofascist celebration that forms the object for Virilio’s technological lament in Speed and Politics. Crucially, Deleuze and Guattari make a distinction between two senses of speed—on the one hand, as connoting fast movement of an actual body, while on the other relating to the rhythmic consistency of a virtual body. This distinction is fundamental to their unique version of Spinoza’s philosophy of nature. As opposed to Virilio’s dromology, Deleuze and Guattari’s Spinozist conception of cartography is more rhythmanalytic. While many emphasize the vast architecture of Spinoza’s geometrical method, their Spinoza is quite unique in its focus on an a ective ecology of speeds. For Spinoza, the human, as a mode of nature, has access to only two of the in nite attributes of substance, thought and extension. In his Spi- nozist definition of a body, Deleuze writes that we need two complementary accounts relating to a body’s kinetic and dynamic relations. In a kinetic field, “a body, however small it may be, is composed of an infinite number of particles; it is the relations of motion and rest, of speeds and slownesses between particles, that define a body, the individuality of a body.” On the other hand, in a dynamic phase space, bounded by a maximum and minimum threshold, “a body affects other bodies, or is affected by other bodies; it is this capacity for a ecting and being a ected that also de nes a body in its individuality.” This rhythmic cartography comprises several crucial and corresponding conceptual distinctions—between longitude and latitude, kinetics and dynamics, movement and speed, the extensive and the intensive. In A Thousand Plateaus, Deleuze and Guattari point out that “a movement may be very fast, but that does not give it speed; a speed may be very slow, or even immobile, yet it is still speed. Movement is extensive; speed is intensive. Movement designates the relative character of a body considered as “one,” and which goes from point to point; speed, on the contrary, constitutes the absolute character of a body whose irreducible parts (atoms) occupy or fill a smooth space in the manner of a vortex, with the possibility of springing up at any point.”
+      </p>
+      <p id="in-extensive">
+        By arguing that speed is intensive and motion extensive, they are pointing to the difference between an abstract line of speed and point-to-point movement. Movement here is measurable speed. On a Cartesian axis designating space-time, where the vertical y-axis traces distance and the horizontal x-axis time, speed is measured by dividing the distance covered by the time taken. This measured speed, Deleuze and Guattari wish to designate as movement. But speed is a diagonal, whose double articulation splits it into space and time. This diagonal of pure speed coincides with the virtuality of the rhythmic nexus: amodal, sensible only in its effects, under continuous variation, cyclically discontinuous. It should be pointed out here that what di erentiates this notion of speed from its apparent Bergsonism is that speed entails a compression of both space and time, not just a pure temporality.
+      </p>
+          <p id="ecologyOfSpeeds">
+            This ecology of speeds implies that bodies, including collective bodies, are defined not as closed, determinate systems, formed, or identi able merely by their constituent parts or organs and tending toward rhythmic equilibrium or harmony, but rather by their rhythmic consistency and a ective potential. What is interesting, from a Spinozist point of view, is not what an entity is, but rather what it can do. In such terms, a body is, for Deleuze and Guattari, defined through its longitude and latitude, where the longitude corresponds to “the sum total of the material elements belonging to it under given relations of movement and rest, speed and slowness.” That is to say, the longitude of an entity is the set of relations that compose it out of unformed elements: “the particle aggregates belonging to that body in a given relation [where] these aggregates are part of each other depending on the composition of the relation that de nes the indi- viduated assemblage of the body.” The latitude of such an entity, on the other hand, corresponds to the “the sum total of the intensive a ects it is capable of at a given power or degree of potential.” The latitude of an entity is the “set of a ects that occupy a body at each moment, that is, the intensive states of an anonymous force (force for existing, capacity for being a ected).” It constitutes the “affects of which it is capable at a given degree of power, or rather within the limits  of that degree. Latitude is made up of intensive parts falling under a capacity, and longitude of extensive parts falling under a relation.”
+          </p>
+          <p id="rhythmicConsistency">
+            In these terms, a vibratory nexus falls under two distinct aspects: its composition (rhythmic consistency) and its capacity to affect and be affected by other entities. These conceptual components can be deployed to map the a ective mobilization of a population immanent to a rhythmic anarchitecture. If an entity is de ned by its vibrational consistency, how does invention occur? To return to the tension between a Spinozan affective ecology of speeds and a Whiteheadian version of rhythmanalysis, it should be remembered that each version suggests a slightly different inflection to construction. Either for Spinoza, we do not know yet what an entity can do (where an entity is de ned by its power and that power is open-ended), or for Whitehead an occasion is finite, but once it has satisfied its potential, it perishes and becomes something else. While these divergences clearly evidence two contrasting philosophical frameworks, with contrasting notions of bodies or occasions and their potentials, they also may often pragmatically converge.
+          </p>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,16 @@
+drwxr-xr-x    8 erinma3    erinma3           226 Jan  8 18:35 .
+drwxr-xr-x   23 erinma3    erinma3          4096 Jan  8 18:35 ..
+-rw-r--r--    1 erinma3    erinma3          8194 Jan  8 18:35 .DS_Store
+-rw-r--r--    1 erinma3    erinma3          1094 Jan  8 18:35 LICENSE
+drwxr-xr-x    2 erinma3    erinma3            65 Jan  8 18:35 css
+drwxr-xr-x    2 erinma3    erinma3          4096 Jan  8 18:35 img
+-rw-r--r--    1 erinma3    erinma3          7115 Jan  8 18:35 index.html
+drwxr-xr-x    2 erinma3    erinma3            66 Jan  8 18:35 js
+drwxr-xr-x    2 erinma3    erinma3            72 Jan  8 18:35 libraries
+-rw-r--r--    1 erinma3    erinma3        102190 Jan  8 18:35 rita.min.js
+drwxr-xr-x    2 erinma3    erinma3           261 Jan  8 18:35 scss
+-rw-r--r--    1 erinma3    erinma3          9102 Jan  8 18:35 sketch.js
+-rw-r--r--    1 erinma3    erinma3          4437 Jan  8 18:35 sketch8.js
+drwxr-xr-x    7 erinma3    erinma3           107 Jan  8 18:35 vendor
+-rw-r--r--    1 erinma3    erinma3         28240 Jan  8 18:35 xochitl.js
+-rw-r--r--    1 erinma3    erinma3          2292 Jan  8 18:35 xonahuiyacan.js

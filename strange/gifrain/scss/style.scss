@@ -1,0 +1,74 @@
+body {
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+	.gif {
+		border-radius: 10px;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		background-position: center center;
+		box-shadow: 0 0 3px black;
+		position: absolute;
+		top: inherit;
+		left: inherit;
+	}
+	.random{
+		animation: glow .7s infinite;
+	}
+}
+
+@keyframes glow {
+	0% {
+		box-shadow: 0 0 .5vw firebrick;
+	}
+	50% {
+		box-shadow: 0 0 1.5vw firebrick, 0 0 1.75vw darkorange;
+	}
+	100% {
+		box-shadow: 0 0 .5vw firebrick;
+	}
+}
+
+
+/* Profile Link */
+@mixin responsive-font($responsive,
+$min,
+$max: false,
+$fallback: false) {
+	$responsive-unitless: $responsive / ($responsive - $responsive + 1);
+	$dimension: if(unit($responsive)=='vh', 'height', 'width');
+	$min-breakpoint: $min / $responsive-unitless * 100;
+	@media (max-#{$dimension}: #{$min-breakpoint}) {
+		font-size: $min;
+	}
+	@if $max {
+		$max-breakpoint: $max / $responsive-unitless * 100;
+		@media (min-#{$dimension}: #{$max-breakpoint}) {
+			font-size: $max;
+		}
+	}
+	@if $fallback {
+		font-size: $fallback;
+	}
+	font-size: $responsive;
+}
+
+$size:3vw;
+$max:36px;
+.button.me {
+	@include responsive-font($size, $size, $max, $max);
+	position: absolute;
+	bottom: 5%;
+	right: 5%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	opacity:.5;
+	transition:opacity .5s ease;
+	border-radius:5px;
+	z-index:9999;
+	&:hover {
+		opacity: 1;
+	}
+}

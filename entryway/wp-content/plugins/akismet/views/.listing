@@ -1,0 +1,13 @@
+drwxr-xr-x    2 erinma3    erinma3           206 Jan  8 18:34 .
+drwxr-xr-x    4 erinma3    erinma3           291 Jan  8 18:34 ..
+-rw-r--r--    1 erinma3    erinma3           177 Jan  8 18:34 activate.php
+-rw-r-----    1 erinma3    erinma3         11910 Jan  8 18:34 config.php
+-rw-r--r--    1 erinma3    erinma3          4985 Jan  8 18:34 connect-jp.php
+-rw-r--r--    1 erinma3    erinma3           803 Jan  8 18:34 enter.php
+-rw-r--r--    1 erinma3    erinma3           748 Jan  8 18:34 get.php
+-rw-r--r--    1 erinma3    erinma3         10364 Jan  8 18:34 notice.php
+-rw-r--r--    1 erinma3    erinma3           318 Jan  8 18:34 predefined.php
+-rw-r--r--    1 erinma3    erinma3           370 Jan  8 18:34 setup.php
+-rw-r--r--    1 erinma3    erinma3           984 Jan  8 18:34 start.php
+-rw-r--r--    1 erinma3    erinma3           744 Jan  8 18:34 stats.php
+-rw-r--r--    1 erinma3    erinma3           125 Jan  8 18:34 title.php

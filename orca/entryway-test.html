@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://aframe.io/releases/0.2.0/aframe.js"></script>
+    </head>
+
+    <body>
+        <a-scene>
+            <a-assets>
+                <a-asset-item id="bug-obj" src="models/the-new-friendly-bug-obj/the-new-friendly-bug.obj"></a-asset-item>
+                <a-asset-item id="bug-mtl" src="models/the-new-friendly-bug-obj/the-new-friendly-bug.mtl"></a-asset-item>
+                <a-asset-item id="rock-obj" src="models/agrisphere-stones-obj/agrisphere-stones.obj"></a-asset-item>
+                <a-asset-item id="rock-mtl" src="models/agrisphere-stones-obj/agrisphere-stones.mtl"></a-asset-item>
+                <a-asset-item id="plant-obj" src="models/flower-obj/flower.obj"></a-asset-item>
+                <a-asset-item id="plant-mtl" src="models/flower-obj/flower.mtl"></a-asset-item>
+            </a-assets>
+
+            <!-- Using the asset management system. -->
+            <a-obj-model src="#bug-obj" mtl="#bug-mtl"
+                          position="10 10 0"></a-obj-model>
+            <a-obj-model src="#rock-obj" mtl="#rock-mtl"></a-obj-model>
+            <a-obj-model src="#plant-obj" mtl="#plant-mtl"></a-obj-model>
+            <!-- Defining the URL inline. Not recommended but may be more comfortable. -->
+            <!--<a-obj-model src="models/aztec-temple.obj" mtl="models/aztec-temple.mtl"></a-obj-model>-->
+        </a-scene>
+    </body>
+</html>

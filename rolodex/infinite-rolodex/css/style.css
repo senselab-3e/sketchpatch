@@ -1,0 +1,71 @@
+.rolodex {
+  list-style:none inside none;
+  width:700px;
+  height:100px;
+  margin-top:100px;
+  padding:0;
+  position:relative;
+  margin-left:auto;
+  margin-right:auto;
+}
+.rolodex li {
+  display:none;
+  padding:20px;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+.rolodex .first,.rolodex .second,.rolodex .third,.rolodex .fourth,.rolodex .front{
+  display:block;
+  position:asbolute;
+  transition: all 1s;
+  opacity:1;
+}
+.rolodex .fourth {
+  opacity:0;
+}
+
+.rolodex .first {
+  z-index:10;
+  top:0;
+}
+.rolodex .front {
+  z-index:10;
+  top:300%;
+  opacity:0;
+}
+.rolodex .second {
+  z-index:9;
+  top:-30%;
+  margin:0 5%;
+  width:90%;
+}
+.rolodex .third {
+  z-index:8;
+  top:-60%;
+  margin:0 10%;
+  width:80%;
+}
+.rolodex .fourth {
+  z-index:7;
+  top:-90%;
+  margin:0 15%;
+  width:70%;
+}
+/*
+.item1{
+  background-color:red;
+}
+.item2{
+  background-color:green;
+}
+.item3{
+  background-color:blue;
+}
+.item4{
+  background-color:yellow;
+}
+.item5{
+  background-color:purple;
+}
+*/

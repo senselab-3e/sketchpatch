@@ -1,0 +1,57 @@
+<html>
+<head>
+
+<script src="https://unpkg.com/aframe-environment-component@1.1.0/dist/aframe-environment-component.min.js"></script>
+<script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
+<script src="https://unpkg.com/aframe-particle-system-component@1.0.x/dist/aframe-particle-system-component.min.js"></script>
+  <script src="amountain.js"></script>
+  <script src="https://rawgit.com/mayognaise/aframe-gif-shader/master/dist/aframe-gif-shader.min.js"></script>
+  <script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v4.1.2/dist/aframe-extras.min.js"></script>
+  <script src="https://unpkg.com/aframe-html-shader@0.2.0/dist/aframe-html-shader.min.js"></script>
+  <script src="https://unpkg.com/super-hands@3.0.0/dist/super-hands.min.js"></script>
+  <script src="https://rawgit.com/thedart76/aframe-blink-teleportation/master/js/aframe-blink-teleportation-min.js"></script>
+	<script src="https://unpkg.com/aframe-animation-component@4.1.2/dist/aframe-animation-component.min.js"></script>
+  <script src="https://unpkg.com/aframe-look-at-component@0.5.1/dist/aframe-look-at-component.min.js"></script>
+
+  <script src="aframe-physics-system.min.js"> </script>
+
+
+</head>
+<body>
+<a-assets>
+
+   </a-assets>
+
+</a-assets>
+<a-scene physics="debug: false">
+    <a-plane static-body></a-plane>
+
+    <a-sky src="strange1.jpg"></a-sky>
+   <a-sphere class="clickable" radius="0.19" position="0 1.7 -2" color="gold" shadow></a-sphere>
+   <a-entity position="0 2.25 -15" particle-system="preset:snow; particleCount:10000"></a-entity>
+   <a-entity geometry="primitive:box;" material="shader:gif;src:url(http://3e-pr0cess-s33dbank.com/strange/izsafe.gif);color:gray;opacity:.8"></a-entity>
+
+
+
+
+<a-plane static-body>
+   <a-mountain color="gray"></a-mountain>
+
+</a-plane>
+
+   <a-sphere id="ball" radius="0.15" color="#afa" dynamic-body="mass: 50; linearDamping: 0.0001"></a-sphere>
+<a-entity class="clickable" position="-3 3 -4" geometry="primitive: plane; width: 2" material="color: black" text="align: center; color: white; font: dejavu; value: good evening, ladies and gentlemen, it's fall"></a-entity>
+<a-entity id="right" vive-controls="hand: right" throwing-hand></a-entity>
+        <a-entity id="left" vive-controls="hand: left"></a-entity>
+
+        <a-entity id="cameraRig">
+      <!-- CAMERA -->
+      <a-camera user-height="1.5" wasd-controls-enabled="false">
+        <!-- SELECTIVE INTERSECTIONS -->
+        <a-cursor raycaster="objects: .clickable"></a-cursor>
+      </a-camera>
+    </a-entity>
+</a-scene>
+
+</body>
+</html>

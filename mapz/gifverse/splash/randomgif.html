@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+	<style>
+	
+		
+		
+		#patch {
+			
+			width: 900px;
+			height: 900px;
+			background-color: aquamarine;
+			background-size: 34%;
+		background-repeat: repeat;
+		}
+		
+		
+	
+	</style>
+	
+	<script>
+		
+		
+		
+
+		
+function loadgifverse(){
+  var random= Math.floor(Math.random() * 4) + 0;
+  var verses = ["url('0.gif')",
+                 "url('1.gif')",
+                 "url('2.gif')",
+                 "url('3.gif')",
+                 ];
+  document.getElementById("patch").style.backgroundImage=verses[random];
+}		
+	
+		
+	</script>
+
+</head>
+
+<body onLoad="loadgifverse()">
+
+	<div id="patch"></div>
+
+</body>
+</html>

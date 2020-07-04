@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+	<style>
+.button {
+  display: inline-block;
+  padding: 5px;
+  font-size: 9px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #999;
+	opacity: 0.4;
+  border: none;
+  border-radius: 5px;
+	position: absolute;
+	z-index: 5;
+	top: 5px;
+	float: left;
+  
+}
+
+.button:hover {background-color: #ff1d8e;
+	opacity: 1.0;
+	}
+
+.button:active {
+  background-color: #ff1d8e;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+	
+		
+		
+		body {
+			
+			
+			background-color: aquamarine;
+			
+		background-repeat: repeat;
+		}
+		
+		
+	
+	</style>
+	
+	<script>
+		
+		
+function loadgifverse(){
+  var random= Math.floor(Math.random() * 17) + 0;
+  var verses = ["url('0.gif')",
+                 "url('1.gif')",
+                 "url('2.gif')",
+                 "url('3.gif')",
+				"url('4.gif')",
+				"url('05.gif')",
+				"url('06.gif')",
+				"url('07.gif')",
+				"url('08.gif')",
+				"url('09.gif')",
+				"url('10.gif')",
+				"url('08.gif')",
+				"url('09.gif')",
+				"url('10.gif')",
+				"url('11.gif')",
+				"url('12.gif')",
+				"url('13.gif')",
+				"url('14.gif')",
+				"url('15.gif')",
+				"url('16.gif')",
+                 ];
+  /*document.getElementById("patch").style.backgroundImage=verses[random];*/
+	
+	 document.body.style.backgroundImage=verses[random];
+}
+	
+		
+	/* Get the documentElement (<html>) to display the page in fullscreen */
+var elem = document.documentElement;
+
+	
+		
+	function openFullscreen() {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.mozRequestFullScreen) { /* Firefox */
+    elem.mozRequestFullScreen();
+  } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) { /* IE/Edge */
+    elem.msRequestFullscreen();
+  }
+}
+		
+		
+		/* Close fullscreen */
+function closeFullscreen() {
+  if (document.exitFullscreen) {
+    document.exitFullscreen();
+  } else if (document.mozCancelFullScreen) { /* Firefox */
+    document.mozCancelFullScreen();
+  } else if (document.webkitExitFullscreen) { /* Chrome, Safari and Opera */
+    document.webkitExitFullscreen();
+  } else if (document.msExitFullscreen) { /* IE/Edge */
+    document.msExitFullscreen();
+  }
+}
+		
+	</script>
+
+</head>
+
+<body onLoad="loadgifverse()">
+
+
+	
+	<button class="button" onclick="openFullscreen();">o0O</button>
+  
+
+	<div id="patch"></div>
+	
+
+	
+
+</body>
+</html>

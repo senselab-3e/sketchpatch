@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<body onLoad="randomverse()">
+
+
+
+
+<button id="button" onClick=loadgifverse()>Inline click function</button>
+<button id="myBtn">addEventListener() method</button>
+
+
+	<p id="demo"></p>
+	<p id="demo2"></p>
+
+<script>
+document.getElementById("myBtn").addEventListener("click", myFunction);
+
+function myFunction() {
+    document.getElementById("demo2").innerHTML = "Hello World";
+	window.open(gifverse);
+}
+	
+	
+var gifverse;
+
+function randomverse (){
+	
+document.getElementById("demo").innerHTML = "0"+
+Math.floor(Math.random() * 10) + ".html";
+	
+gifverse = "0"+
+Math.floor(Math.random() * 10) + ".html";	
+	
+}
+
+function loadgifverse (){
+	window.open(gifverse);
+	/*alert ("Hello World!");*/
+	
+}	
+	
+</script>
+
+</body>
+</html>
+

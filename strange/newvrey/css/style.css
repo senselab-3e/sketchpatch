@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis:500");
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'K2D', sans-serif;
+  font-size: 7.5px;
+  background: 'http://3e-pr0cess-s33dbank.com/strange/gifrain/kingdom.jpg';
+  padding-right: 20px;
+  padding-left: 20px;
+  display: block;
+
+}
+
+body.splash {
+  font-size: 10px;
+}
+
+p.xfiles {
+  font-size: 15px;
+
+  }} 
+
+.popup-button
+  position: relative
+  display: inline-block
+  padding: 10px
+  font-size: 14px
+  line-height: 16px
+  font-family: K2D, sans-serif  
+  color: #fff
+  background: #248888
+  border-radius: 4px
+  cursor: pointer
+  box-sizing: border-box
+  transition: opacity .3s ease
+  user-select: none
+
+.popup-overlay
+  position: fixed
+  display: none
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  z-index: 1002
+  background: rgba(53, 70, 80, .9)
+  box-sizing: border-box
+
+  &.is-active
+    display: block
+
+    .popup
+      display: inline-block
+
+      
+.popup-scroll
+  display: block
+  width: 100%
+  height: 100%
+  overflow-y: auto
+  -webkit-overflow-scrolling: touch
+  box-sizing: border-box
+
+.popup-wrapper
+  display: table
+  padding: 40px 20px
+  width: 100%
+  height: 100%
+  box-sizing: border-box
+
+.popup-holder
+  display: table-cell
+  width: 100%
+  height: 100%
+  text-align: center
+  vertical-align: middle
+
+.popup
+  position: relative
+  display: none
+  background-color: #fff
+  max-width: 1140px
+  width: 100%
+  border-radius: 10px
+  text-align: left
+  box-sizing: border-box
+  
+.popup-close-btn
+  position: absolute
+  top: -39px
+  right: 5px
+  cursor: pointer
+  font-size: 25px
+  line-height: 25px
+  color: #fff
+  font-family: Arial, sans-serif
+  font-weight: bold
+  cursor: pointer
+  
+.popup-data
+  display: block
+  width: 100%
+  padding: 15px
+  box-sizing: border-box
+  
+.popup-text
+  display: block
+  margin: 0
+  font-size: 16px
+  line-height: 24px
+  color: #FFFFFF
+  font-family: K2D, sans-serif  
+
+
+.gloriousbody{
+padding-right: 0px;
+padding-left:0px;
+
+}
+canvas{
+  background:hsla(0,0%,0%,1);
+  width:10%;
+  height:10%vh;
+}
+
+H1 { text-align: left}
+
+p {
+  font-family: 'K2D', sans-serif;
+  font-size: 30px;
+  background-color: black;
+  color: white;
+  opacity: .8;
+
+}
+
+a {
+  font-size: 15px;
+  color: white;
+}
+
+div.background {
+  background: url(http://3e-pr0cess-s33dbank.com/strange/gifrain/kingdom.jpg) repeat;
+  border: 2px solid black;
+}
+
+#biggerfontlink {
+  font-family: 'K2D', sans-serif;
+  font-size: 15px;
+  color: white;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.box {
+  font-size: 1.9rem;
+  background-color: hsla(64, 32%, 0%, 0.72);
+  color: #ccc;
+  border-radius: 8px;
+  height: 160px;
+  width: 14.667%;
+  padding: 8px;
+  margin: 1%;
+  float: left;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.box:nth-child(even) {
+  background-color: hsla(64, 32%, 0%, 0.72);
+  color: white;
+}
+
+.boximage {
+  font-size: 2.5rem;
+  background-color: #444;
+  color: #ccc;
+  border-radius: 16px;
+  height: 160px;
+  width: 14.667%;
+  padding: 32px;
+  margin: 1%;
+  float: left;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.boximage:nth-child(even) {
+  background-color: #ccc;
+  color: #444;
+}
+
+
+.info-box {
+  font-size: 2.5rem;
+  background-color: #444;
+  color: #ccc;
+  border-radius: 16px;
+  height: 160px;
+  width: 14.667%;
+  padding: 32px;
+  margin: 1%;
+  float: left;
+  cursor: pointer;
+  transition: all 0.5s;
+  background-color: black !important;
+  width: 98%;
+  height: 0;
+  overflow: visible;
+  padding: 0;
+  opacity: 0;
+  color: #fff !important;
+  object-fit: cover;
+}
+.info-box.open {
+  height: 320px;
+  padding: 32px;
+  opacity: 1;
+  position: sticky;
+}
+
+
+.info-boximage {
+  font-size: 2.5rem;
+  background-color: #444;
+  color: #ccc;
+  border-radius: 16px;
+  height: 160px;
+  width: 14.667%;
+  padding: 32px;
+  margin: 1%;
+  float: left;
+  cursor: pointer;
+  transition: all 0.5s;
+  background-color: black !important;
+  width: 98%;
+  height: 0;
+  overflow: visible;
+  padding: 0;
+  opacity: 0;
+  color: #fff !important;
+}
+.info-box.open {
+  height: 320px;
+  padding: 32px;
+  opacity: 1;
+}
+
+div.video_div{
+    width:400px;
+    height:120px;
+    border:0px solid red;
+    background-color:blue;
+    margin:0 auto;
+    overflow: hidden
+}
+video{
+    width:100%;
+    height:100%;
+    /* Use contain instead if you want the object to fit without cropping */
+    contain: cover;
+}

@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+	<style>
+
+
+
+  		#patch {
+
+  			width: 50px;
+  			height: 50px;
+  			background-color: aquamarine;
+  			background-size: 34%;
+  		background-repeat: repeat;
+  		}
+
+      #patch2 {
+
+  			width: 50px;
+  			height: 50px;
+  			background-color: #b3f442;
+  			background-size: 34%;
+  		background-repeat: repeat;
+  		}
+
+      #patch3 {
+
+  			width: 50px;
+  			height: 50px;
+  			background-color: #a9a5ce;
+  			background-size: 34%;
+  		background-repeat: repeat;
+  		}
+      
+.patches{
+  margin-left:30%;
+}
+
+
+	</style>
+
+	<script>
+
+
+function loadgifverse(){
+  var random= Math.floor(Math.random() * 15) + 0;
+  var verses = ["url('0.gif')",
+                 "url('1.gif')",
+                 "url('2.gif')",
+                 "url('3.gif')",
+				"url('4.gif')",
+				"url('05.gif')",
+				"url('06.gif')",
+				"url('07.gif')",
+				"url('08.gif')",
+				"url('09.gif')",
+				"url('10.gif')",
+				"url('08.gif')",
+				"url('09.gif')",
+				"url('10.gif')",
+				"url('11.gif')",
+				"url('12.gif')",
+				"url('13.gif')",
+				"url('14.gif')",
+                 ];
+  document.getElementById("patch").style.backgroundImage=verses[random];
+}
+
+function loadgifverse2(){
+  var random= Math.floor(Math.random() * 15) + 0;
+  var verses = ["url('0.gif')",
+                 "url('1.gif')",
+                 "url('2.gif')",
+                 "url('3.gif')",
+				"url('4.gif')",
+				"url('05.gif')",
+				"url('06.gif')",
+				"url('07.gif')",
+				"url('08.gif')",
+				"url('09.gif')",
+				"url('10.gif')",
+				"url('08.gif')",
+				"url('09.gif')",
+				"url('10.gif')",
+				"url('11.gif')",
+				"url('12.gif')",
+				"url('13.gif')",
+				"url('14.gif')",
+                 ];
+  document.getElementById("patch2").style.backgroundImage=verses[random];
+}
+
+function loadgifverse3(){
+  var random= Math.floor(Math.random() * 15) + 0;
+  var verses = ["url('0.gif')",
+                 "url('1.gif')",
+                 "url('2.gif')",
+                 "url('3.gif')",
+				"url('4.gif')",
+				"url('05.gif')",
+				"url('06.gif')",
+				"url('07.gif')",
+				"url('08.gif')",
+				"url('09.gif')",
+				"url('10.gif')",
+				"url('08.gif')",
+				"url('09.gif')",
+				"url('10.gif')",
+				"url('11.gif')",
+				"url('12.gif')",
+				"url('13.gif')",
+				"url('14.gif')",
+                 ];
+  document.getElementById("patch3").style.backgroundImage=verses[random];
+}
+
+
+	</script>
+
+</head>
+
+<body>
+
+	<div class="patches" id="patch" onclick="loadgifverse()"></div>
+  <br>
+  <br>
+  <div class="patches" id="patch2" onclick="loadgifverse2()"></div>
+  <br>
+  <br>
+  <div class="patches" id="patch1" onclick="loadgifverse2()"></div>
+  <br>
+  <br>
+    <div class="patches" id="patch2" onclick="loadgifverse3()"></div>
+  <br>
+  <div class="patches" id="patch3" onclick="loadgifverse3()"></div>
+  <br>
+  <div class="patches" id="patch3" onclick="loadgifverse3()"></div>
+  <br>
+  <div class="patches" id="patch" onclick="loadgifverse()"></div>
+
+
+
+
+</body>
+</html>

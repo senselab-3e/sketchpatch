@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.js"></script>
+
+  </head>
+  <body >
+    <div id="coperino">a a a a a abbbbbbbbb</div>
+
+      <script>
+      function preload() {
+       copey = loadSound(‘assets/minmov-soundz-copey.mp3’);
+      }
+
+      function setup(){
+       frameRate(60);
+      }
+
+      const colors = {"a": "assets/minmov-soundz-copey.mp3", "b":"assets/minmov-soundz-copey.mp3"}
+      function blackcat(id){
+      let ll = document.getElementById(id)
+      ll.innerHTML = ll.innerText.split("").map(l => `<span onclick="trigSound(${colors[l]})">${l}</span>`).join("")
+      }
+
+      function trigSound(buf) {
+      buf.play(0, 1.0, 1.0, 0, buf.duration()-0.5);
+      }
+
+      blackcat(coperino)
+</script>
+
+  </body>
+</html>

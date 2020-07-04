@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+   <script src="https://www.gstatic.com/firebasejs/3.5.2/firebase.js"></script>
+  </head>
+  <body>
+    <div id="canvas"></div>
+
+    <button onclick="go()">hello</button>
+
+     <!-- <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-app.js"></script> -->
+<script>
+// Get input from user
+var points = [];
+var r;
+var g;
+var b;
+
+// Keep list of DOM elements for clearing later when reloading
+var listItems = [];
+
+  function setup(){
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAS3tiUeWlA-YbM3SsqegwL5YwX0LBCthw",
+    authDomain: "patchesjson.firebaseapp.com",
+    databaseURL: "https://patchesjson.firebaseio.com",
+    projectId: "patchesjson",
+    storageBucket: "",
+    messagingSenderId: "579021886576",
+    appId: "1:579021886576:web:b8684a9ce6cf3e5c"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  console.log(firebase);
+
+  //canvas for drawing
+  var canvas = createCanvas(360, 360);
+  canvas.parent('canvas');
+
+  canvas.mousePressed(startDrawing);
+  canvas.mouseReleased(endDrawing);
+
+  r = random(255);
+  g = random(255);
+  b = random(255);
+
+}
+
+function startDrawing() {
+  // Empty array
+  points = [];
+}
+
+// Put points in the array
+function mouseDragged() {
+  var p = {
+    x: mouseX,
+    y: mouseY
+  }
+  points.push(p);
+}
+
+// Finished send data!
+function endDrawing() {
+  analyzeThis();
+}
+
+
+function draw() {
+  background(g, r, b);
+
+  noStroke();
+  fill(r, g, b);
+
+
+  beginShape();
+  for (var i = 0; i < points.length; i++) {
+    vertex(points[i].x, points[i].y);
+  }
+  endShape();
+}
+
+function analyzeThis(){
+  input = createInput();
+  input.position(20, 65);
+
+  button = createButton('submit');
+  button.position(input.x + input.width, 65);
+  button.mousePressed(go);
+
+  greeting = createElement('h2', 'location?');
+  greeting.position(20, 5);
+}
+
+function go(){
+  var database = firebase.database();
+  var patches = database.ref('patches');
+  const name = input.value();
+  var patchPatching = {
+    path : points,
+    location : name
+  }
+
+  patches.push(patchPatching, finished);
+function finished(error) {
+  if (error) {
+    console.log('ooops');
+  } else {
+    console.log('data saved!');
+  }
+}
+}
+
+</script>
+
+  </body>
+</html>
