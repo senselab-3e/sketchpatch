@@ -1,7 +1,0 @@
-drwxr-xr-x    3 erinma3    erinma3           114 Jan  8 18:34 .
-drwxr-xr-x    8 erinma3    erinma3           210 Jan  8 18:34 ..
-drwxr-xr-x    3 erinma3    erinma3           122 Jan  8 18:34 ReCaptcha
--rw-r--r--    1 erinma3    erinma3          1170 Jan  8 18:34 autoload.php
--rw-r--r--    1 erinma3    erinma3          1300 Jan  8 18:34 connect-new.php
--rw-r--r--    1 erinma3    erinma3          1077 Jan  8 18:34 connect-old.php
--rw-r--r--    1 erinma3    erinma3          4638 Jan  8 18:34 recaptcha-old.php

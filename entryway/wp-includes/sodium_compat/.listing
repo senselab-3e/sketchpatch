@@ -1,8 +1,0 @@
-drwxr-xr-x    5 erinma3    erinma3           102 Jan  8 18:34 .
-drwxr-xr-x   20 erinma3    erinma3          8192 Jan  8 18:34 ..
--rw-r--r--    1 erinma3    erinma3           918 Jan  8 18:34 LICENSE
--rw-r--r--    1 erinma3    erinma3          2092 Jan  8 18:34 autoload.php
--rw-r--r--    1 erinma3    erinma3          1560 Jan  8 18:34 composer.json
-drwxr-xr-x    2 erinma3    erinma3           126 Jan  8 18:34 lib
-drwxr-xr-x    3 erinma3    erinma3            70 Jan  8 18:34 namespaced
-drwxr-xr-x    5 erinma3    erinma3           144 Jan  8 18:34 src
